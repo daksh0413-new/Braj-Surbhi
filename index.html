@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Braj Surbhi - Sacred Handicrafts & Devotional Decor</title>
+  
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+  <style>
+    :root {
+      /* Palette requested */
+      --navy-dark: #0a1325;       /* Deep matte royal navy */
+      --navy-card: #111e38;       /* Subtle card contrast */
+      --accent-teal: #0d8b8a;     /* Greenish-blue / Teal */
+      --accent-teal-light: #18a9a8;
+      --accent-red: #b92b27;      /* Sacred Festive Red */
+      --accent-red-hover: #98221f;
+      --text-main: #f1f5f9;       /* Soft white */
+      --text-muted: #94a3b8;      /* Slate grey */
+      --border-color: rgba(255, 255, 255, 0.08);
+      --font-heading: 'Cinzel', serif;
+      --font-body: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--navy-dark);
+      color: var(--text-main);
+      font-family: var(--font-body);
+      line-height: 1.6;
+    }
+
+    /* Header & Navigation */
+    header {
+      background-color: rgba(10, 19, 37, 0.95);
+      border-bottom: 1px solid var(--border-color);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      backdrop-filter: blur(10px);
+    }
+
+    .nav-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0.8rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .brand-group {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      text-decoration: none;
+    }
+
+    .logo-main {
+      height: 52px;
+      object-fit: contain;
+    }
+
+    .initiative-badge {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding-left: 1rem;
+      border-left: 1px solid var(--border-color);
+    }
+
+    .initiative-badge span {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .logo-initiative {
+      height: 38px;
+      object-fit: contain;
+      filter: drop-shadow(0 2px 4px rgba(0,0,0,0.4));
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1.8rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--text-main);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+      transition: color 0.2s ease;
+    }
+
+    .nav-links a:hover {
+      color: var(--accent-teal-light);
+    }
+
+    .btn-contact {
+      background: var(--accent-red);
+      color: #fff;
+      padding: 0.55rem 1.2rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 0.88rem;
+      font-weight: 600;
+      transition: background 0.3s ease;
+    }
+
+    .btn-contact:hover {
+      background: var(--accent-red-hover);
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      padding: 5rem 1.5rem;
+      text-align: center;
+      background: radial-gradient(circle at top center, #162646 0%, var(--navy-dark) 70%);
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .hero-badge {
+      display: inline-block;
+      padding: 0.35rem 1rem;
+      background: rgba(13, 139, 138, 0.15);
+      border: 1px solid var(--accent-teal);
+      color: var(--accent-teal-light);
+      border-radius: 50px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-bottom: 1.2rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .hero h1 {
+      font-family: var(--font-heading);
+      font-size: 2.8rem;
+      margin-bottom: 1rem;
+      color: #fff;
+      letter-spacing: 0.5px;
+    }
+
+    .hero p {
+      max-width: 650px;
+      margin: 0 auto 2rem;
+      color: var(--text-muted);
+      font-size: 1.05rem;
+    }
+
+    .hero-actions {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    .btn-primary {
+      background-color: var(--accent-teal);
+      color: #fff;
+      padding: 0.8rem 1.8rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.2s ease;
+    }
+
+    .btn-primary:hover {
+      background-color: var(--accent-teal-light);
+    }
+
+    /* Products Section */
+    .products-section {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 5rem 1.5rem;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 3.5rem;
+    }
+
+    .section-title h2 {
+      font-family: var(--font-heading);
+      font-size: 2.2rem;
+      color: #fff;
+    }
+
+    .section-title p {
+      color: var(--text-muted);
+      margin-top: 0.5rem;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 2rem;
+    }
+
+    .product-card {
+      background: var(--navy-card);
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--border-color);
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.25s ease, border-color 0.25s ease;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+      border-color: var(--accent-teal);
+    }
+
+    .img-box {
+      width: 100%;
+      height: 250px;
+      background: #060b14;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      overflow: hidden;
+    }
+
+    .img-box img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      transition: transform 0.3s ease;
+    }
+
+    .product-card:hover .img-box img {
+      transform: scale(1.05);
+    }
+
+    .product-details {
+      padding: 1.4rem;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    .product-category {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--accent-teal-light);
+      font-weight: 600;
+      margin-bottom: 0.3rem;
+    }
+
+    .product-title {
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      color: #fff;
+    }
+
+    .product-desc {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      margin-bottom: 1.2rem;
+      flex-grow: 1;
+    }
+
+    .order-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      width: 100%;
+      background: rgba(185, 43, 39, 0.15);
+      border: 1px solid var(--accent-red);
+      color: #ff8c8a;
+      padding: 0.65rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+
+    .order-btn:hover {
+      background: var(--accent-red);
+      color: #fff;
+    }
+
+    /* Footer */
+    footer {
+      background: #060c18;
+      border-top: 1px solid var(--border-color);
+      padding: 3rem 1.5rem;
+      text-align: center;
+    }
+
+    .footer-content {
+      max-width: 800px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.2rem;
+    }
+
+    .footer-logos {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    .footer-logos img {
+      height: 40px;
+      object-fit: contain;
+    }
+
+    .footer-note {
+      color: var(--text-muted);
+      font-size: 0.88rem;
+    }
+
+    @media (max-width: 768px) {
+      .initiative-badge {
+        display: none;
+      }
+      .nav-links {
+        display: none;
+      }
+      .hero h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <div class="nav-container">
+      <div class="brand-group">
+        <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1791378962/file_00000000d9748246822b57ba7ad9acd6_u3b6tl.png" alt="Braj Surbhi Logo" class="logo-main">
+        <div class="initiative-badge">
+          <span>An Initiative By</span>
+          <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1780481420/yjrsvaizrmprlbrrdsde.png" alt="Initiative Partner" class="logo-initiative">
+        </div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#products">Collection</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+      <a href="https://wa.me/?text=Hello%20Braj%20Surbhi,%20I%20would%20like%20to%20inquire%20about%20your%20products." target="_blank" class="btn-contact">
+        <i class="fa-brands fa-whatsapp"></i> Inquire Now
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <span class="hero-badge">Authentic Braj Handicrafts</span>
+    <h1>Braj Surbhi Collections</h1>
+    <p>Handcrafted devotional items, sacred embellishments, and artisanal spiritual decor inspired by the heritage of Braj.</p>
+    <div class="hero-actions">
+      <a href="#products" class="btn-primary">Explore Products</a>
+    </div>
+  </section>
+
+  <!-- Product Showcase -->
+  <section id="products" class="products-section">
+    <div class="section-title">
+      <h2>Curated Creations</h2>
+      <p>Artisanal decor crafted for festive purity and auspicious presence.</p>
+    </div>
+
+    <div class="product-grid">
+      <!-- Product 1: Mukut -->
+      <article class="product-card">
+        <div class="img-box">
+          <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1790776633/wjgkxr3rsjkxsmeelldh.jpg" alt="Devotional Mukut" loading="lazy">
+        </div>
+        <div class="product-details">
+          <span class="product-category">Devotional Adornment</span>
+          <h3 class="product-title">Sacred Mukut</h3>
+          <p class="product-desc">Intricately designed decorative crown created with fine craftsmanship for deities and pooja setups.</p>
+          <a href="https://wa.me/?text=Hello,%20I%20am%20interested%20in%20ordering%20the%20Sacred%20Mukut." class="order-btn" target="_blank">
+            <i class="fa-solid fa-paper-plane"></i> Inquire Product
+          </a>
+        </div>
+      </article>
+
+      <!-- Product 2: Shubh Labh Design A -->
+      <article class="product-card">
+        <div class="img-box">
+          <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1790780260/b4fygfbtgfnosn75shkq.jpg" alt="Auspicious Shubh Labh" loading="lazy">
+        </div>
+        <div class="product-details">
+          <span class="product-category">Festive Door Art</span>
+          <h3 class="product-title">Shubh Labh Hangings</h3>
+          <p class="product-desc">Traditional auspicious wall and entrance decor to welcome prosperity, peace, and spiritual harmony.</p>
+          <a href="https://wa.me/?text=Hello,%20I%20am%20interested%20in%20ordering%20the%20Shubh%20Labh%20Decor." class="order-btn" target="_blank">
+            <i class="fa-solid fa-paper-plane"></i> Inquire Product
+          </a>
+        </div>
+      </article>
+
+      <!-- Product 3: Shubh Labh Variant B -->
+      <article class="product-card">
+        <div class="img-box">
+          <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1790781962/coakr87bgtlyeseccgmc.jpg" alt="Artisanal Shubh Labh" loading="lazy">
+        </div>
+        <div class="product-details">
+          <span class="product-category">Festive Door Art</span>
+          <h3 class="product-title">Floral Shubh Labh Pair</h3>
+          <p class="product-desc">Handcrafted decorative accent made with rich colors and intricate embellishments for sacred spaces.</p>
+          <a href="https://wa.me/?text=Hello,%20I%20am%20interested%20in%20ordering%20the%20Floral%20Shubh%20Labh%20Pair." class="order-btn" target="_blank">
+            <i class="fa-solid fa-paper-plane"></i> Inquire Product
+          </a>
+        </div>
+      </article>
+
+      <!-- Product 4: Decorative Emblem / Handicraft -->
+      <article class="product-card">
+        <div class="img-box">
+          <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1790781505/pky5upuyw2wqlgmaj4uk.jpg" alt="Traditional Wall Decor" loading="lazy">
+        </div>
+        <div class="product-details">
+          <span class="product-category">Sacred Handicraft</span>
+          <h3 class="product-title">Divine Auspicious Motif</h3>
+          <p class="product-desc">Vibrant hand-detailed decorative artwork symbolizing positivity, blessings, and cultural elegance.</p>
+          <a href="https://wa.me/?text=Hello,%20I%20am%20interested%20in%20ordering%20the%20Divine%20Auspicious%20Motif." class="order-btn" target="_blank">
+            <i class="fa-solid fa-paper-plane"></i> Inquire Product
+          </a>
+        </div>
+      </article>
+
+      <!-- Product 5: Bandhanwar / Toran -->
+      <article class="product-card">
+        <div class="img-box">
+          <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1790784978/orpdkfvjizbks51nvqvf.jpg" alt="Handcrafted Bandhanwar Toran" loading="lazy">
+        </div>
+        <div class="product-details">
+          <span class="product-category">Door Valance / Toran</span>
+          <h3 class="product-title">Handmade Bandhanwar</h3>
+          <p class="product-desc">Ornate door toran designed to grace entrances with timeless festive charm and traditional craftsmanship.</p>
+          <a href="https://wa.me/?text=Hello,%20I%20am%20interested%20in%20ordering%20the%20Handmade%20Bandhanwar." class="order-btn" target="_blank">
+            <i class="fa-solid fa-paper-plane"></i> Inquire Product
+          </a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="about">
+    <div class="footer-content">
+      <div class="footer-logos">
+        <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1791378962/file_00000000d9748246822b57ba7ad9acd6_u3b6tl.png" alt="Braj Surbhi">
+        <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1780481420/yjrsvaizrmprlbrrdsde.png" alt="Initiative Partner">
+      </div>
+      <p class="footer-note">
+        &copy; Braj Surbhi. All rights reserved. Dedicated to preserving authentic cultural handicrafts and devotional artistry.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
