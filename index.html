@@ -1,2295 +1,1222 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
-  <!-- Primary Meta Tags -->
-  <title>Braj Surbhi — An Initiative by Khajani Welfare Society</title>
-  <meta name="title" content="Braj Surbhi — An Initiative by Khajani Welfare Society" />
-  <meta name="description" content="Celebrating the sacred heritage, culture, traditions and timeless spirit of Braj Bhoomi. Handcrafted deity adornments, auspicious Shubh Labh decor, and sacred bandhanwars." />
-  <meta name="keywords" content="Braj Surbhi, Khajani Welfare Society, Braj handicrafts, deity mukut, shubh labh, bandhanwar, mathura artisans, vrindavan crafts" />
-  <meta name="author" content="Khajani Welfare Society" />
-  <meta name="robots" content="index, follow" />
-
-  <!-- Google Search Console Verifications -->
-  <meta name="google-site-verification" content="bsO3Wcmwg8HeskQwjh50f8aGdXcOBYx1ygl2lnGT0DM" />
-  <meta name="google-site-verification" content="google1553f0c3fff35c1e" />
-
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Braj Surbhi — An Initiative by Khajani Welfare Society" />
-  <meta property="og:description" content="Celebrating the sacred heritage, culture, traditions and timeless spirit of Braj Bhoomi." />
-  <meta property="og:image" content="https://res.cloudinary.com/dpeijmtb6/image/upload/v1791378962/file_00000000d9748246822b57ba7ad9acd6_u3b6tl.png" />
-
-  <!-- Favicons and Touch Icons -->
-  <link rel="icon" type="image/png" href="https://res.cloudinary.com/dpeijmtb6/image/upload/v1791378962/file_00000000d9748246822b57ba7ad9acd6_u3b6tl.png" />
-  <link rel="shortcut icon" type="image/png" href="https://res.cloudinary.com/dpeijmtb6/image/upload/v1791378962/file_00000000d9748246822b57ba7ad9acd6_u3b6tl.png" />
-  <link rel="apple-touch-icon" href="https://res.cloudinary.com/dpeijmtb6/image/upload/v1791378962/file_00000000d9748246822b57ba7ad9acd6_u3b6tl.png" />
-
-  <!-- Google Fonts & Font Awesome Icons -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Rozha+One&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-
-  <style>
-    :root {
-      --primary-red: #b91c1c;
-      --primary-red-hover: #991b1b;
-      --primary-red-light: #fef2f2;
-      --secondary-teal: #0d9488;
-      --secondary-teal-hover: #0f766e;
-      --secondary-teal-light: #f0fdfa;
-      --navy-royal: #0f172a;
-      --navy-deep: #090d16;
-      --navy-slate: #1e293b;
-      --bg-cream: #faf9f6;
-      --bg-paper: #f4efe6;
-      --card-white: #ffffff;
-      --border-soft: #e2e8f0;
-      --border-accent: #cbd5e1;
-      --text-dark: #0f172a;
-      --text-body: #334155;
-      --text-muted: #64748b;
-      --font-serif: 'Cinzel', serif;
-      --font-alt-serif: 'Rozha One', serif;
-      --font-sans: 'Plus Jakarta Sans', sans-serif;
-      --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
-      --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.07);
-      --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.08);
-      --radius-sm: 4px;
-      --radius-md: 8px;
-      --radius-lg: 12px;
-      --container-max: 1240px;
-    }
-
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    body {
-      font-family: var(--font-sans);
-      background-color: var(--bg-cream);
-      color: var(--text-body);
-      line-height: 1.65;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
-
-    img {
-      max-width: 100%;
-      height: auto;
-      display: block;
-    }
-
-    a {
-      text-decoration: none;
-      color: inherit;
-      transition: all 0.2s ease;
-    }
-
-    /* Top Strip Notice */
-    .top-strip {
-      background-color: var(--navy-royal);
-      color: #e2e8f0;
-      font-size: 0.82rem;
-      border-bottom: 2px solid var(--primary-red);
-      padding: 0.45rem 1.5rem;
-    }
-
-    .top-strip-inner {
-      max-width: var(--container-max);
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-    }
-
-    .top-strip-left {
-      display: flex;
-      align-items: center;
-      gap: 1.25rem;
-    }
-
-    .top-strip-left span {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.4rem;
-    }
-
-    .top-strip-right {
-      display: flex;
-      align-items: center;
-      gap: 1.25rem;
-    }
-
-    .top-strip-right a {
-      color: #e2e8f0;
-      font-weight: 500;
-    }
-
-    .top-strip-right a:hover {
-      color: #38bdf8;
-    }
-
-    /* Main Navigation Header */
-    header.site-header {
-      background: var(--card-white);
-      border-bottom: 1px solid var(--border-soft);
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      box-shadow: var(--shadow-sm);
-    }
-
-    .header-container {
-      max-width: var(--container-max);
-      margin: 0 auto;
-      padding: 0.85rem 1.5rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .logo-cluster {
-      display: flex;
-      align-items: center;
-      gap: 1.2rem;
-      cursor: pointer;
-    }
-
-    .logo-main-brand {
-      height: 60px;
-      width: auto;
-      object-fit: contain;
-    }
-
-    .logo-vertical-divider {
-      width: 1.5px;
-      height: 42px;
-      background: var(--border-accent);
-    }
-
-    .initiative-cluster {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-
-    .initiative-cluster .initiative-label {
-      font-size: 0.65rem;
-      text-transform: uppercase;
-      font-weight: 800;
-      letter-spacing: 0.08em;
-      color: var(--secondary-teal);
-      line-height: 1;
-      margin-bottom: 0.2rem;
-    }
-
-    .logo-society {
-      height: 38px;
-      width: auto;
-      object-fit: contain;
-    }
-
-    nav.primary-nav ul {
-      display: flex;
-      list-style: none;
-      align-items: center;
-      gap: 1.6rem;
-    }
-
-    nav.primary-nav li a {
-      font-size: 0.94rem;
-      font-weight: 600;
-      color: var(--navy-slate);
-      padding: 0.5rem 0.2rem;
-      position: relative;
-      cursor: pointer;
-    }
-
-    nav.primary-nav li a:hover,
-    nav.primary-nav li a.nav-active {
-      color: var(--primary-red);
-    }
-
-    nav.primary-nav li a.nav-active::after {
-      content: '';
-      position: absolute;
-      bottom: -4px;
-      left: 0;
-      right: 0;
-      height: 2.5px;
-      background: var(--primary-red);
-      border-radius: 2px;
-    }
-
-    .header-cta-btn {
-      background: var(--primary-red);
-      color: #ffffff !important;
-      padding: 0.6rem 1.3rem !important;
-      border-radius: var(--radius-sm);
-      font-weight: 700;
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
-
-    .header-cta-btn:hover {
-      background: var(--primary-red-hover) !important;
-      color: #ffffff !important;
-    }
-
-    .mobile-menu-btn {
-      display: none;
-      background: none;
-      border: 1px solid var(--border-soft);
-      padding: 0.5rem 0.75rem;
-      font-size: 1.25rem;
-      border-radius: var(--radius-sm);
-      color: var(--navy-royal);
-      cursor: pointer;
-    }
-
-    /* Page Navigation Views (Single Page Multi-Route) */
-    .page-section {
-      display: none;
-      max-width: var(--container-max);
-      margin: 0 auto;
-      padding: 3rem 1.5rem 4rem 1.5rem;
-      width: 100%;
-      flex: 1;
-    }
-
-    .page-section.view-active {
-      display: block;
-    }
-
-    /* Standard Section Headers */
-    .section-title-wrap {
-      text-align: center;
-      margin-bottom: 2.8rem;
-    }
-
-    .section-subtitle-tag {
-      display: inline-block;
-      font-size: 0.76rem;
-      font-weight: 800;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: var(--secondary-teal);
-      background: var(--secondary-teal-light);
-      padding: 0.3rem 0.8rem;
-      border-radius: var(--radius-sm);
-      border: 1px solid rgba(13, 148, 136, 0.2);
-      margin-bottom: 0.6rem;
-    }
-
-    .section-main-heading {
-      font-family: var(--font-serif);
-      font-size: 2.2rem;
-      color: var(--navy-royal);
-      margin-bottom: 0.6rem;
-      font-weight: 700;
-      letter-spacing: -0.01em;
-    }
-
-    .section-desc-para {
-      color: var(--text-muted);
-      max-width: 680px;
-      margin: 0 auto;
-      font-size: 1rem;
-    }
-
-    /* Home Hero View */
-    .hero-panel {
-      background: var(--card-white);
-      border: 1px solid var(--border-soft);
-      border-radius: var(--radius-md);
-      overflow: hidden;
-      margin-bottom: 3.5rem;
-      box-shadow: var(--shadow-sm);
-    }
-
-    .hero-panel-grid {
-      display: grid;
-      grid-template-columns: 1.15fr 0.85fr;
-      align-items: center;
-    }
-
-    .hero-content {
-      padding: 3.5rem 3rem;
-    }
-
-    .hero-badge {
-      display: inline-block;
-      font-size: 0.8rem;
-      font-weight: 700;
-      color: var(--primary-red);
-      background: var(--primary-red-light);
-      padding: 0.35rem 0.9rem;
-      border-radius: var(--radius-sm);
-      border: 1px solid rgba(185, 28, 28, 0.2);
-      margin-bottom: 1.25rem;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-    }
-
-    .hero-title-main {
-      font-family: var(--font-serif);
-      font-size: 2.85rem;
-      color: var(--navy-royal);
-      line-height: 1.15;
-      margin-bottom: 1.2rem;
-    }
-
-    .hero-mission-bio {
-      font-size: 1.2rem;
-      color: var(--secondary-teal-hover);
-      font-weight: 600;
-      margin-bottom: 1.4rem;
-      line-height: 1.5;
-      border-left: 3px solid var(--primary-red);
-      padding-left: 1rem;
-    }
-
-    .hero-context-text {
-      color: var(--text-muted);
-      font-size: 0.98rem;
-      margin-bottom: 2rem;
-      line-height: 1.7;
-    }
-
-    .hero-btn-group {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      flex-wrap: wrap;
-    }
-
-    .btn-red {
-      background: var(--primary-red);
-      color: #ffffff;
-      padding: 0.75rem 1.6rem;
-      border-radius: var(--radius-sm);
-      font-weight: 600;
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      border: none;
-      cursor: pointer;
-    }
-
-    .btn-red:hover {
-      background: var(--primary-red-hover);
-      color: #ffffff;
-    }
-
-    .btn-outline-navy {
-      background: transparent;
-      color: var(--navy-royal);
-      border: 1.5px solid var(--navy-slate);
-      padding: 0.72rem 1.5rem;
-      border-radius: var(--radius-sm);
-      font-weight: 600;
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      cursor: pointer;
-    }
-
-    .btn-outline-navy:hover {
-      background: var(--navy-royal);
-      color: #ffffff;
-    }
-
-    .hero-showcase-box {
-      background: var(--bg-paper);
-      padding: 2.5rem;
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      border-left: 1px solid var(--border-soft);
-      position: relative;
-    }
-
-    .hero-img-stack {
-      width: 100%;
-      max-width: 380px;
-      background: #ffffff;
-      padding: 1rem;
-      border-radius: var(--radius-md);
-      border: 1px solid var(--border-soft);
-      box-shadow: var(--shadow-md);
-      text-align: center;
-    }
-
-    .hero-img-stack img {
-      max-height: 270px;
-      margin: 0 auto;
-      object-fit: contain;
-    }
-
-    .hero-img-caption {
-      margin-top: 0.8rem;
-      font-size: 0.85rem;
-      font-weight: 700;
-      color: var(--navy-royal);
-      border-top: 1px solid var(--border-soft);
-      padding-top: 0.5rem;
-    }
-
-    /* Core Pillars Cards */
-    .card-grid-3 {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 1.8rem;
-      margin-bottom: 3.5rem;
-    }
-
-    .institutional-card {
-      background: var(--card-white);
-      border: 1px solid var(--border-soft);
-      border-radius: var(--radius-md);
-      padding: 2.2rem 1.8rem;
-      box-shadow: var(--shadow-sm);
-      position: relative;
-    }
-
-    .institutional-card::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 1.8rem;
-      right: 1.8rem;
-      height: 3px;
-      background: var(--border-accent);
-    }
-
-    .institutional-card.card-accent-red::before {
-      background: var(--primary-red);
-    }
-
-    .institutional-card.card-accent-teal::before {
-      background: var(--secondary-teal);
-    }
-
-    .institutional-card.card-accent-navy::before {
-      background: var(--navy-royal);
-    }
-
-    .card-icon-box {
-      width: 48px;
-      height: 48px;
-      border-radius: var(--radius-sm);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.4rem;
-      margin-bottom: 1.4rem;
-    }
-
-    .icon-red { background: var(--primary-red-light); color: var(--primary-red); }
-    .icon-teal { background: var(--secondary-teal-light); color: var(--secondary-teal); }
-    .icon-navy { background: #e2e8f0; color: var(--navy-royal); }
-
-    .institutional-card h3 {
-      font-family: var(--font-serif);
-      font-size: 1.28rem;
-      color: var(--navy-royal);
-      margin-bottom: 0.8rem;
-    }
-
-    .institutional-card p {
-      font-size: 0.92rem;
-      color: var(--text-body);
-      line-height: 1.65;
-    }
-
-    /* Featured Products Banner on Home */
-    .curated-preview-bar {
-      background: var(--card-white);
-      border: 1px solid var(--border-soft);
-      border-radius: var(--radius-md);
-      padding: 2.5rem;
-      margin-bottom: 3.5rem;
-    }
-
-    .preview-header-flex {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-end;
-      margin-bottom: 2rem;
-      padding-bottom: 1rem;
-      border-bottom: 1px solid var(--border-soft);
-    }
-
-    /* Product Grid Layout */
-    .product-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
-      gap: 2rem;
-    }
-
-    .product-box {
-      background: var(--card-white);
-      border: 1px solid var(--border-soft);
-      border-radius: var(--radius-md);
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      transition: border-color 0.2s ease, box-shadow 0.2s ease;
-    }
-
-    .product-box:hover {
-      border-color: var(--secondary-teal);
-      box-shadow: var(--shadow-md);
-    }
-
-    .product-box-img-wrapper {
-      background: #fdfdfd;
-      height: 250px;
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 1.5rem;
-      border-bottom: 1px solid var(--border-soft);
-      position: relative;
-    }
-
-    .product-box-img-wrapper img {
-      max-height: 100%;
-      max-width: 100%;
-      object-fit: contain;
-    }
-
-    .product-tag-pill {
-      position: absolute;
-      top: 0.75rem;
-      left: 0.75rem;
-      font-size: 0.7rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      background: #ffffff;
-      color: var(--secondary-teal);
-      padding: 0.2rem 0.6rem;
-      border-radius: var(--radius-sm);
-      border: 1px solid var(--border-soft);
-      box-shadow: var(--shadow-sm);
-    }
-
-    .product-box-body {
-      padding: 1.4rem;
-      display: flex;
-      flex-direction: column;
-      flex-grow: 1;
-    }
-
-    .product-category-sub {
-      font-size: 0.74rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      color: var(--secondary-teal);
-      letter-spacing: 0.05em;
-      margin-bottom: 0.25rem;
-    }
-
-    .product-name-head {
-      font-family: var(--font-serif);
-      font-size: 1.22rem;
-      color: var(--navy-royal);
-      margin-bottom: 0.5rem;
-    }
-
-    .product-brief-info {
-      font-size: 0.88rem;
-      color: var(--text-muted);
-      line-height: 1.55;
-      margin-bottom: 1.25rem;
-      flex-grow: 1;
-    }
-
-    .product-specs-list {
-      list-style: none;
-      font-size: 0.8rem;
-      color: var(--text-body);
-      background: var(--bg-cream);
-      padding: 0.6rem 0.8rem;
-      border-radius: var(--radius-sm);
-      margin-bottom: 1.2rem;
-      border: 1px solid var(--border-soft);
-    }
-
-    .product-specs-list li {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 0.25rem;
-    }
-
-    .product-specs-list li:last-child {
-      margin-bottom: 0;
-    }
-
-    .product-specs-list span.spec-label {
-      color: var(--text-muted);
-      font-weight: 500;
-    }
-
-    .product-specs-list span.spec-val {
-      font-weight: 700;
-      color: var(--navy-royal);
-    }
-
-    .btn-product-whatsapp {
-      background: var(--card-white);
-      color: var(--primary-red);
-      border: 1.5px solid var(--primary-red);
-      padding: 0.65rem 1rem;
-      border-radius: var(--radius-sm);
-      font-size: 0.88rem;
-      font-weight: 700;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 0.5rem;
-      cursor: pointer;
-    }
-
-    .btn-product-whatsapp:hover {
-      background: var(--primary-red);
-      color: #ffffff;
-    }
-
-    /* Gallery Tabs & Grid */
-    .gallery-filter-controls {
-      display: flex;
-      justify-content: center;
-      gap: 0.6rem;
-      flex-wrap: wrap;
-      margin-bottom: 2.2rem;
-    }
-
-    .gallery-filter-btn {
-      background: var(--card-white);
-      border: 1px solid var(--border-accent);
-      padding: 0.5rem 1.1rem;
-      border-radius: var(--radius-sm);
-      font-size: 0.86rem;
-      font-weight: 600;
-      color: var(--navy-slate);
-      cursor: pointer;
-    }
-
-    .gallery-filter-btn.active-tab {
-      background: var(--navy-royal);
-      color: #ffffff;
-      border-color: var(--navy-royal);
-    }
-
-    .gallery-cards-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 1.5rem;
-    }
-
-    .gallery-single-card {
-      background: var(--card-white);
-      border: 1px solid var(--border-soft);
-      border-radius: var(--radius-md);
-      overflow: hidden;
-    }
-
-    .gallery-img-container {
-      height: 240px;
-      width: 100%;
-      background: #fcfcfc;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 1.2rem;
-      border-bottom: 1px solid var(--border-soft);
-    }
-
-    .gallery-img-container img {
-      max-height: 100%;
-      max-width: 100%;
-      object-fit: contain;
-    }
-
-    .gallery-card-desc {
-      padding: 1rem 1.25rem;
-      background: #ffffff;
-    }
-
-    .gallery-card-desc h4 {
-      font-family: var(--font-serif);
-      font-size: 1rem;
-      color: var(--navy-royal);
-      margin-bottom: 0.2rem;
-    }
-
-    .gallery-card-desc p {
-      font-size: 0.8rem;
-      color: var(--text-muted);
-    }
-
-    /* About Us Sections */
-    .about-story-grid {
-      display: grid;
-      grid-template-columns: 1.2fr 0.8fr;
-      gap: 2.5rem;
-      background: var(--card-white);
-      border: 1px solid var(--border-soft);
-      border-radius: var(--radius-md);
-      padding: 3rem;
-      margin-bottom: 3.5rem;
-    }
-
-    .about-text-pane h3 {
-      font-family: var(--font-serif);
-      font-size: 1.7rem;
-      color: var(--navy-royal);
-      margin-bottom: 1.2rem;
-    }
-
-    .about-text-pane p {
-      font-size: 0.98rem;
-      color: var(--text-body);
-      margin-bottom: 1.2rem;
-      line-height: 1.75;
-    }
-
-    .about-callout-quote {
-      background: var(--bg-cream);
-      border-left: 3px solid var(--primary-red);
-      padding: 1.25rem;
-      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
-      margin: 1.5rem 0;
-      font-family: var(--font-serif);
-      color: var(--navy-royal);
-      font-size: 1.05rem;
-      line-height: 1.5;
-    }
-
-    .about-side-stats {
-      background: var(--bg-paper);
-      border: 1px solid var(--border-soft);
-      border-radius: var(--radius-md);
-      padding: 2.2rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      gap: 1.5rem;
-    }
-
-    .stat-metric-block {
-      border-bottom: 1px solid var(--border-accent);
-      padding-bottom: 1.2rem;
-    }
-
-    .stat-metric-block:last-child {
-      border-bottom: none;
-      padding-bottom: 0;
-    }
-
-    .stat-number {
-      font-family: var(--font-serif);
-      font-size: 2.4rem;
-      font-weight: 800;
-      color: var(--primary-red);
-      line-height: 1;
-    }
-
-    .stat-title {
-      font-weight: 700;
-      color: var(--navy-royal);
-      font-size: 0.95rem;
-      margin-top: 0.3rem;
-    }
-
-    .stat-explainer {
-      font-size: 0.82rem;
-      color: var(--text-muted);
-    }
-
-    /* Society Partnership Profile */
-    .society-profile-section {
-      background: var(--card-white);
-      border: 1px solid var(--border-soft);
-      border-radius: var(--radius-md);
-      padding: 2.8rem;
-      margin-bottom: 3.5rem;
-    }
-
-    .society-flex-row {
-      display: flex;
-      align-items: center;
-      gap: 2rem;
-      margin-bottom: 1.5rem;
-      padding-bottom: 1.5rem;
-      border-bottom: 1px solid var(--border-soft);
-    }
-
-    .society-big-logo {
-      height: 70px;
-      width: auto;
-      object-fit: contain;
-    }
-
-    /* Initiatives Timeline / Cards */
-    .initiatives-detailed-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 2rem;
-      margin-bottom: 3.5rem;
-    }
-
-    .initiative-detailed-box {
-      background: var(--card-white);
-      border: 1px solid var(--border-soft);
-      border-radius: var(--radius-md);
-      padding: 2rem;
-    }
-
-    .initiative-detailed-box h3 {
-      font-family: var(--font-serif);
-      color: var(--navy-royal);
-      font-size: 1.3rem;
-      margin-bottom: 0.8rem;
-      display: flex;
-      align-items: center;
-      gap: 0.6rem;
-    }
-
-    .initiative-detailed-box p {
-      font-size: 0.92rem;
-      color: var(--text-body);
-      line-height: 1.7;
-      margin-bottom: 1rem;
-    }
-
-    .initiative-checklist {
-      list-style: none;
-      font-size: 0.88rem;
-    }
-
-    .initiative-checklist li {
-      margin-bottom: 0.45rem;
-      display: flex;
-      align-items: center;
-      gap: 0.6rem;
-      color: var(--navy-slate);
-    }
-
-    .initiative-checklist li i {
-      color: var(--secondary-teal);
-      font-size: 0.85rem;
-    }
-
-    /* FAQ Section */
-    .faq-accordion-box {
-      max-width: 840px;
-      margin: 0 auto;
-    }
-
-    .faq-row {
-      background: var(--card-white);
-      border: 1px solid var(--border-soft);
-      border-radius: var(--radius-sm);
-      margin-bottom: 0.8rem;
-      overflow: hidden;
-    }
-
-    .faq-question-btn {
-      width: 100%;
-      text-align: left;
-      padding: 1.15rem 1.4rem;
-      background: none;
-      border: none;
-      font-family: inherit;
-      font-size: 0.98rem;
-      font-weight: 700;
-      color: var(--navy-royal);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      cursor: pointer;
-    }
-
-    .faq-answer-pane {
-      display: none;
-      padding: 0 1.4rem 1.25rem 1.4rem;
-      font-size: 0.9rem;
-      color: var(--text-body);
-      line-height: 1.65;
-      border-top: 1px solid var(--bg-cream);
-    }
-
-    .faq-row.active .faq-answer-pane {
-      display: block;
-    }
-
-    /* Contact & Wholesale Grid */
-    .contact-layout-grid {
-      display: grid;
-      grid-template-columns: 1fr 1.25fr;
-      gap: 2.5rem;
-      background: var(--card-white);
-      border: 1px solid var(--border-soft);
-      border-radius: var(--radius-md);
-      padding: 3rem;
-    }
-
-    .contact-info-col h3 {
-      font-family: var(--font-serif);
-      font-size: 1.5rem;
-      color: var(--navy-royal);
-      margin-bottom: 1rem;
-    }
-
-    .contact-info-col p {
-      font-size: 0.93rem;
-      color: var(--text-muted);
-      margin-bottom: 2rem;
-      line-height: 1.65;
-    }
-
-    .contact-detail-items {
-      display: flex;
-      flex-direction: column;
-      gap: 1.25rem;
-      margin-bottom: 2rem;
-    }
-
-    .detail-item-row {
-      display: flex;
-      align-items: flex-start;
-      gap: 1rem;
-    }
-
-    .detail-icon-circle {
-      width: 36px;
-      height: 36px;
-      border-radius: var(--radius-sm);
-      background: var(--bg-cream);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--primary-red);
-      flex-shrink: 0;
-      border: 1px solid var(--border-soft);
-    }
-
-    .detail-text-pair span.detail-label {
-      display: block;
-      font-size: 0.75rem;
-      text-transform: uppercase;
-      font-weight: 700;
-      color: var(--text-muted);
-    }
-
-    .detail-text-pair span.detail-main {
-      font-size: 0.92rem;
-      font-weight: 600;
-      color: var(--navy-royal);
-    }
-
-    .form-pane {
-      background: var(--bg-cream);
-      border: 1px solid var(--border-soft);
-      border-radius: var(--radius-sm);
-      padding: 2rem;
-    }
-
-    .form-group-field {
-      margin-bottom: 1.25rem;
-    }
-
-    .form-group-field label {
-      display: block;
-      font-size: 0.84rem;
-      font-weight: 700;
-      color: var(--navy-royal);
-      margin-bottom: 0.35rem;
-    }
-
-    .form-group-field input,
-    .form-group-field select,
-    .form-group-field textarea {
-      width: 100%;
-      padding: 0.75rem 0.9rem;
-      border: 1px solid var(--border-accent);
-      border-radius: var(--radius-sm);
-      font-family: inherit;
-      font-size: 0.9rem;
-      background: #ffffff;
-      color: var(--text-dark);
-    }
-
-    .form-group-field textarea {
-      resize: vertical;
-      min-height: 110px;
-    }
-
-    /* Complete Institutional Footer */
-    footer.site-footer {
-      background-color: var(--navy-deep);
-      color: #94a3b8;
-      font-size: 0.9rem;
-      border-top: 4px solid var(--primary-red);
-      margin-top: auto;
-    }
-
-    .footer-top-cluster {
-      max-width: var(--container-max);
-      margin: 0 auto;
-      padding: 4rem 1.5rem 2.5rem 1.5rem;
-      display: grid;
-      grid-template-columns: 1.4fr 0.9fr 0.9fr 1.1fr;
-      gap: 2.5rem;
-    }
-
-    .footer-col h4 {
-      font-family: var(--font-serif);
-      color: #ffffff;
-      font-size: 1.15rem;
-      margin-bottom: 1.25rem;
-      position: relative;
-      padding-bottom: 0.4rem;
-    }
-
-    .footer-col h4::after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 32px;
-      height: 2px;
-      background: var(--primary-red);
-    }
-
-    .footer-brand-bio {
-      line-height: 1.7;
-      margin-bottom: 1.4rem;
-      color: #cbd5e1;
-      font-size: 0.88rem;
-    }
-
-    .footer-logos-duo {
-      display: flex;
-      align-items: center;
-      gap: 1.2rem;
-      background: rgba(255,255,255,0.05);
-      padding: 0.8rem 1rem;
-      border-radius: var(--radius-sm);
-      border: 1px solid rgba(255,255,255,0.08);
-      width: fit-content;
-    }
-
-    .footer-logos-duo img.foot-logo {
-      height: 42px;
-      width: auto;
-      object-fit: contain;
-    }
-
-    .footer-col ul {
-      list-style: none;
-    }
-
-    .footer-col ul li {
-      margin-bottom: 0.65rem;
-    }
-
-    .footer-col ul li a {
-      color: #cbd5e1;
-      font-size: 0.88rem;
-      cursor: pointer;
-    }
-
-    .footer-col ul li a:hover {
-      color: #ffffff;
-      padding-left: 3px;
-    }
-
-    .footer-contact-listing p {
-      font-size: 0.88rem;
-      color: #cbd5e1;
-      margin-bottom: 0.75rem;
-      line-height: 1.55;
-    }
-
-    .footer-contact-listing i {
-      color: var(--secondary-teal);
-      width: 20px;
-    }
-
-    .footer-bottom-bar {
-      border-top: 1px solid rgba(255, 255, 255, 0.08);
-      padding: 1.5rem;
-      background: #06090e;
-    }
-
-    .footer-bottom-inner {
-      max-width: var(--container-max);
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 1rem;
-      font-size: 0.82rem;
-    }
-
-    .footer-bottom-inner a {
-      color: #cbd5e1;
-    }
-
-    /* Modal / Alert for Order Confirmation */
-    .inquiry-modal-wrap {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(15, 23, 42, 0.75);
-      display: none;
-      align-items: center;
-      justify-content: center;
-      z-index: 2000;
-      padding: 1.5rem;
-    }
-
-    .inquiry-modal-card {
-      background: #ffffff;
-      border-radius: var(--radius-md);
-      max-width: 480px;
-      width: 100%;
-      padding: 2.2rem;
-      position: relative;
-    }
-
-    .modal-close-btn {
-      position: absolute;
-      top: 1.2rem;
-      right: 1.2rem;
-      background: none;
-      border: none;
-      font-size: 1.25rem;
-      color: var(--navy-royal);
-      cursor: pointer;
-    }
-
-    /* Responsive Queries */
-    @media (max-width: 992px) {
-      .hero-panel-grid,
-      .about-story-grid,
-      .contact-layout-grid {
-        grid-template-columns: 1fr;
-      }
-      .card-grid-3,
-      .gallery-cards-grid,
-      .footer-top-cluster {
-        grid-template-columns: 1fr 1fr;
-      }
-      .initiatives-detailed-grid {
-        grid-template-columns: 1fr;
-      }
-      .hero-showcase-box {
-        border-left: none;
-        border-top: 1px solid var(--border-soft);
-      }
-    }
-
-    @media (max-width: 768px) {
-      nav.primary-nav {
-        display: none;
-      }
-      nav.primary-nav.nav-mobile-open {
-        display: block;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background: #ffffff;
-        border-bottom: 1px solid var(--border-soft);
-        padding: 1.5rem;
-        box-shadow: var(--shadow-lg);
-      }
-      nav.primary-nav.nav-mobile-open ul {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 1rem;
-      }
-      .mobile-menu-btn {
-        display: block;
-      }
-      .card-grid-3,
-      .gallery-cards-grid,
-      .footer-top-cluster {
-        grid-template-columns: 1fr;
-      }
-      .hero-title-main {
-        font-size: 2.2rem;
-      }
-      .top-strip {
-        display: none;
-      }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Braj Surbhi - Khajani Welfare Society</title>
+<meta name="title" content="Braj Surbhi - Khajani Welfare Society">
+<meta name="description" content="Handcrafted cow dung diyas, poshaks, mukuts, and bandhanwars empowering rural women artisans. An initiative by Khajani Welfare Society.">
+<meta name="keywords" content="Braj Surbhi, brajsurbhi, Khajani Welfare Society, cow dung diyas, handcrafted diyas, deity poshaks, laddu gopal poshak, deity mukut, handcrafted mukut, bandhanwars, traditional toran, Braj handicrafts, Mathura handicrafts, Vrindavan crafts, women artisan empowerment, rural women livelihood, eco friendly pooja items, Braj culture">
+<meta name="author" content="Khajani Welfare Society">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#173f36">
+
+<!-- Google Search Console Verifications -->
+<meta name="google-site-verification" content="bsO3Wcmwg8HeskQwjh50f8aGdXcOBYx1ygl2lnGT0DM">
+<meta name="google-site-verification" content="google1553f0c3fff35c1e">
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="https://res.cloudinary.com/dpeijmtb6/image/upload/v1791612831/Green_and_Blue_Lotus_Community_Emblem_qt8td9.png">
+<link rel="shortcut icon" type="image/png" href="https://res.cloudinary.com/dpeijmtb6/image/upload/v1791612831/Green_and_Blue_Lotus_Community_Emblem_qt8td9.png">
+<link rel="apple-touch-icon" href="https://res.cloudinary.com/dpeijmtb6/image/upload/v1791612831/Green_and_Blue_Lotus_Community_Emblem_qt8td9.png">
+
+<!-- Fonts & Libraries -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Rozha+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+:root {
+  --green: #173f36;
+  --green2: #24594a;
+  --saffron: #c77836;
+  --saffron-hover: #a85e25;
+  --gold: #d9b36b;
+  --cream: #f8f4eb;
+  --paper: #fffdf8;
+  --ink: #1d2c26;
+  --muted: #5e7066;
+  --line: rgba(23,63,54,.14);
+  --dark: #101b17;
+  --serif: 'Playfair Display', Georgia, serif;
+  --sans: 'DM Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --shadow-sm: 0 4px 18px rgba(16,27,23,.06);
+  --shadow-lg: 0 12px 36px rgba(16,27,23,.11);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  animation: none !important;
+  transition: none !important;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  line-height: 1.68;
+}
+
+a { text-decoration: none; color: inherit; }
+img { max-width: 100%; height: auto; display: block; }
+button { font-family: inherit; cursor: pointer; }
+
+/* Top Strip */
+.topbar {
+  background: var(--green);
+  color: #f7ead4;
+  padding: 9px 0;
+  font-size: 0.77rem;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.topbar .wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+.topbar a { color: #f7ead4; text-decoration: underline; }
+
+/* Sticky Header */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #ffffff;
+  border-bottom: 1px solid var(--line);
+  box-shadow: var(--shadow-sm);
+}
+.head-inner {
+  min-height: 98px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Enlarged Logos in White Card */
+.dual-logo-box {
+  background: #ffffff;
+  padding: 8px 18px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.logo-item {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-item img {
+  max-width: 72px;
+  max-height: 72px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+.brand-text strong {
+  display: block;
+  font: 700 1.35rem var(--serif);
+  color: var(--green);
+  line-height: 1.1;
+}
+.brand-text small {
+  display: block;
+  color: var(--muted);
+  font-size: 0.68rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  margin-top: 3px;
+}
+
+/* Nav Bar */
+.nav-wrap {
+  display: flex;
+  align-items: center;
+  gap: clamp(10px, 1.6vw, 24px);
+  margin-left: auto;
+}
+.nav-tab-btn {
+  border: 0;
+  background: transparent;
+  color: #384d43;
+  font-size: 0.86rem;
+  font-weight: 600;
+  padding: 10px 4px;
+  position: relative;
+  white-space: nowrap;
+}
+.nav-tab-btn.active {
+  color: var(--green);
+  font-weight: 700;
+  border-bottom: 2px solid var(--saffron);
+}
+
+/* Buttons */
+.btn-main, .btn-ghost, .btn-light {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 20px;
+  border-radius: 4px;
+  font-size: 0.84rem;
+  font-weight: 700;
+  border: 1px solid transparent;
+}
+.btn-main {
+  background: var(--saffron);
+  color: #fff;
+  border-color: var(--saffron);
+}
+.btn-ghost {
+  border-color: rgba(23,63,54,.35);
+  background: transparent;
+  color: var(--green);
+}
+.btn-light {
+  background: #ffffff;
+  color: var(--green);
+  border-color: #ffffff;
+}
+.menu-toggle {
+  display: none;
+  background: transparent;
+  border: 1px solid var(--line);
+  width: 44px;
+  height: 44px;
+  border-radius: 4px;
+  color: var(--green);
+}
+
+/* Views */
+.view {
+  display: none;
+}
+.view.active {
+  display: block;
+}
+
+/* Static Hero Section */
+.hero-band {
+  position: relative;
+  background: var(--green);
+  color: #fff;
+  min-height: 560px;
+  display: flex;
+  align-items: center;
+}
+.hero-band:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(13,38,31,0.95) 0%, rgba(18,52,43,0.85) 55%, rgba(18,52,43,0.35) 100%),
+              url("https://res.cloudinary.com/dpeijmtb6/image/upload/v1790801052/wlkd4u67bar9iu3miks1.jpg") center/cover no-repeat;
+}
+.hero-body {
+  position: relative;
+  z-index: 2;
+  max-width: 780px;
+  padding: 70px 0;
+}
+.eyebrow {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  color: #e9c88b;
+  font-size: 0.74rem;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.hero-body h1 {
+  font: 600 clamp(2.8rem, 6.5vw, 5.2rem)/1.05 var(--serif);
+  letter-spacing: -.03em;
+  margin: 18px 0;
+}
+.hero-body h1 em {
+  font-family: 'Rozha One', serif;
+  font-style: normal;
+  color: #e9c88b;
+}
+.hero-body p {
+  color: rgba(255,255,255,0.9);
+  font-size: 1.05rem;
+  max-width: 630px;
+  margin-bottom: 26px;
+}
+.hero-btns {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* Counter */
+.counter-strip {
+  background: var(--cream);
+  padding: 30px 0;
+  border-bottom: 1px solid var(--line);
+}
+.counter-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.counter-card {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding: 8px 16px;
+  border-right: 1px solid var(--line);
+}
+.counter-card:last-child { border-right: none; }
+.counter-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(199,120,54,0.12);
+  color: var(--saffron);
+  display: grid;
+  place-items: center;
+  font-size: 1.3rem;
+  flex-shrink: 0;
+}
+.counter-card h3 {
+  font: 700 1.85rem var(--serif);
+  color: var(--green);
+  line-height: 1;
+  margin-bottom: 3px;
+}
+.counter-card small {
+  color: var(--muted);
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+/* Layout Elements */
+.section-pad { padding: 75px 0; }
+.section-title {
+  font: 600 clamp(2.1rem, 3.8vw, 3.4rem)/1.15 var(--serif);
+  letter-spacing: -.03em;
+  color: var(--green);
+  margin: 12px 0 16px;
+}
+.section-intro {
+  max-width: 680px;
+  color: var(--muted);
+  font-size: 1rem;
+}
+.split-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 55px;
+  align-items: center;
+}
+.image-stack {
+  position: relative;
+  background: #eae2d3;
+  border: 1px solid var(--line);
+}
+.image-stack img {
+  width: 100%;
+  height: 460px;
+  object-fit: cover;
+}
+.image-note {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: var(--green);
+  color: #fff;
+  padding: 16px 20px;
+  max-width: 250px;
+}
+.image-note b {
+  font: 500 1.25rem var(--serif);
+  color: #e9c88b;
+  display: block;
+}
+.image-note small {
+  font-size: 0.74rem;
+  color: rgba(255,255,255,0.8);
+}
+
+/* Grid & Cards */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin-top: 32px;
+}
+.gallery-card {
+  position: relative;
+  height: 275px;
+  overflow: hidden;
+  background: #e4dbcd;
+  border: 1px solid var(--line);
+}
+.gallery-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gallery-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(16,27,23,0.85);
+  color: #fff;
+  padding: 12px 14px;
+}
+.gallery-caption b {
+  display: block;
+  font: 500 1.02rem var(--serif);
+}
+.gallery-caption small {
+  font-size: 0.74rem;
+  color: #e9c88b;
+}
+
+/* Bridge */
+.next-bridge {
+  background: var(--cream);
+  border: 1px solid var(--line);
+  padding: 22px 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-top: 48px;
+}
+.next-bridge small {
+  font-size: 0.68rem;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  color: var(--saffron);
+  font-weight: 700;
+}
+.next-bridge h3 {
+  font: 600 1.35rem var(--serif);
+  color: var(--green);
+  margin: 3px 0;
+}
+.next-bridge p {
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+/* Details and FAQ */
+.impact-row {
+  display: flex;
+  gap: 16px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line);
+}
+.impact-row i {
+  color: var(--saffron);
+  font-size: 1.2rem;
+  margin-top: 4px;
+}
+.impact-row b {
+  display: block;
+  font: 600 1.05rem var(--serif);
+  color: var(--green);
+}
+.impact-row span {
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+.accordion-item {
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  background: transparent;
+}
+.accordion-button {
+  background: transparent !important;
+  color: var(--green) !important;
+  box-shadow: none !important;
+  padding: 18px 0;
+  font: 600 1.05rem var(--serif);
+}
+.accordion-button:after {
+  background-image: none;
+  content: "+";
+  font: 400 1.3rem var(--sans);
+  color: var(--saffron);
+  width: auto;
+  height: auto;
+}
+.accordion-button:not(.collapsed):after { content: "−"; }
+.accordion-body {
+  padding: 0 18px 18px 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+/* Contact Desk */
+.contact-box {
+  background: #ffffff;
+  padding: 30px;
+  border: 1px solid var(--line);
+}
+.contact-box h3 {
+  font: 600 1.6rem var(--serif);
+  color: var(--green);
+  margin-bottom: 4px;
+}
+.form-label {
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: var(--green);
+}
+.form-control, .form-select {
+  border-radius: 4px;
+  border: 1px solid #ccd5ce;
+  padding: 11px;
+  font-size: 0.88rem;
+  background: #fff;
+}
+
+/* Footer */
+.footer {
+  background: var(--dark);
+  color: rgba(255,255,255,0.72);
+  padding: 55px 0 0;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.3fr .8fr .8fr 1.1fr;
+  gap: 36px;
+  padding-bottom: 40px;
+}
+.footer-logo-pill {
+  background: #ffffff;
+  padding: 10px 16px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.footer-logo-pill img {
+  height: 52px;
+  width: auto;
+  object-fit: contain;
+}
+.footer h4 {
+  font: 600 1.05rem var(--serif);
+  color: #fff;
+  margin-bottom: 16px;
+}
+.footer-links {
+  display: grid;
+  gap: 9px;
+}
+.footer-links button {
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 0;
+  color: rgba(255,255,255,0.78);
+  font-size: 0.82rem;
+}
+.footer-contact-item {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 0.85rem;
+}
+.footer-contact-item i {
+  color: #e9c88b;
+  width: 18px;
+}
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding: 18px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+  font-size: 0.73rem;
+}
+
+/* Floating WhatsApp */
+.wa-float {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 999;
+  background: #1e8354;
+  color: #fff;
+  border-radius: 50px;
+  padding: 12px 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 0.82rem;
+  box-shadow: var(--shadow-lg);
+}
+
+@media (max-width: 991px) {
+  .menu-toggle { display: block; margin-left: auto; }
+  .nav-wrap {
+    position: fixed;
+    inset: 0 0 0 auto;
+    width: min(320px, 84vw);
+    height: 100vh;
+    background: #ffffff;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 75px 24px 24px;
+    box-shadow: -10px 0 30px rgba(0,0,0,0.12);
+    display: none;
+    z-index: 1002;
+  }
+  .nav-wrap.open { display: flex; }
+  .nav-tab-btn {
+    text-align: left;
+    font-size: 0.95rem;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .head-inner > .btn-main { display: none; }
+  .counter-grid { grid-template-columns: repeat(2, 1fr); }
+  .counter-card:nth-child(2) { border-right: none; }
+  .split-grid { grid-template-columns: 1fr; gap: 36px; }
+  .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+  .footer-grid { grid-template-columns: repeat(2, 1fr); gap: 26px; }
+}
+@media (max-width: 600px) {
+  .counter-grid { grid-template-columns: 1fr; }
+  .counter-card { border-right: none; border-bottom: 1px solid var(--line); padding-bottom: 10px; }
+  .counter-card:last-child { border-bottom: none; }
+  .gallery-grid { grid-template-columns: 1fr; }
+  .footer-grid { grid-template-columns: 1fr; }
+  .hero-body h1 { font-size: clamp(2.4rem, 10vw, 3.6rem); }
+}
+</style>
 </head>
 <body>
 
-  <!-- Top Institutional Bar -->
-  <div class="top-strip">
-    <div class="top-strip-inner">
-      <div class="top-strip-left">
-        <span><i class="fa-solid fa-om" style="color: #f87171;"></i> Shri Radhe Krishna</span>
-        <span><i class="fa-solid fa-hands-praying"></i> Dedicated to Braj Sanskriti &amp; Traditional Artisanship</span>
-      </div>
-      <div class="top-strip-right">
-        <span><i class="fa-solid fa-certificate" style="color: #38bdf8;"></i> Registered Social Enterprise Partner</span>
-        <a href="javascript:void(0)" onclick="switchPage('contact')"><i class="fa-solid fa-envelope"></i> Coordinator Desk</a>
-      </div>
-    </div>
+<!-- Top Strip -->
+<div class="topbar">
+  <div class="container wrap">
+    <span><i class="fa-solid fa-seedling me-2"></i>Rooted in Braj · Handcrafted with Purpose</span>
+    <span>A community welfare initiative by <a href="https://khajani-welfare-society.vercel.app/" target="_blank" rel="noopener">Khajani Welfare Society <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i></a></span>
   </div>
+</div>
 
-  <!-- Main Website Header -->
-  <header class="site-header">
-    <div class="header-container">
-      <div class="logo-cluster" onclick="switchPage('home')">
-        <img 
-          src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1791378962/file_00000000d9748246822b57ba7ad9acd6_u3b6tl.png" 
-          alt="Braj Surbhi Insignia" 
-          class="logo-main-brand" 
-        />
-        <div class="logo-vertical-divider"></div>
-        <div class="initiative-cluster">
-          <span class="initiative-label">An Initiative by</span>
-          <img 
-            src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1780481420/yjrsvaizrmprlbrrdsde.png" 
-            alt="Khajani Welfare Society" 
-            class="logo-society" 
-          />
-        </div>
+<!-- Header with Enlarged Dual Logos in White Card -->
+<header class="site-header" id="siteHeader">
+  <div class="container head-inner">
+    <div class="dual-logo-box">
+      <!-- Left Logo: Braj Surbhi Official Insignia (Enlarged) -->
+      <div class="logo-item" title="Braj Surbhi">
+        <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1791378962/file_00000000d9748246822b57ba7ad9acd6_u3b6tl.png" alt="Braj Surbhi Logo">
       </div>
-
-      <button class="mobile-menu-btn" onclick="toggleNavMenu()" aria-label="Toggle navigation">
-        <i class="fa-solid fa-bars"></i>
-      </button>
-
-      <nav class="primary-nav" id="main-nav">
-        <ul>
-          <li><a href="#home" class="nav-link-btn nav-active" onclick="switchPage('home')">Home</a></li>
-          <li><a href="#about" class="nav-link-btn" onclick="switchPage('about')">About Us</a></li>
-          <li><a href="#initiatives" class="nav-link-btn" onclick="switchPage('initiatives')">Initiatives</a></li>
-          <li><a href="#products" class="nav-link-btn" onclick="switchPage('products')">Products</a></li>
-          <li><a href="#gallery" class="nav-link-btn" onclick="switchPage('gallery')">Gallery</a></li>
-          <li><a href="#impact" class="nav-link-btn" onclick="switchPage('impact')">Artisan Impact</a></li>
-          <li><a href="#faq" class="nav-link-btn" onclick="switchPage('faq')">FAQ</a></li>
-          <li><a href="#contact" class="header-cta-btn" onclick="switchPage('contact')"><i class="fa-solid fa-paper-plane"></i> Contact Us</a></li>
-        </ul>
-      </nav>
+      <!-- Right Logo: Khajani Welfare Society Logo (Equal Enlarged Size) -->
+      <div class="logo-item" title="Khajani Welfare Society">
+        <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1780481420/yjrsvaizrmprlbrrdsde.png" alt="Khajani Welfare Society Logo">
+      </div>
+      <div class="brand-text ms-1">
+        <strong>Braj Surbhi</strong>
+        <small>Khajani Welfare Society</small>
+      </div>
     </div>
-  </header>
 
-  <!-- ========================================== -->
-  <!-- PAGE 1: HOME PAGE                          -->
-  <!-- ========================================== -->
-  <main id="view-home" class="page-section view-active">
-    <div class="hero-panel">
-      <div class="hero-panel-grid">
-        <div class="hero-content">
-          <span class="hero-badge"><i class="fa-solid fa-feather"></i> Sacred Devotional Art &amp; Welfare</span>
-          <h1 class="hero-title-main">Braj Surbhi</h1>
-          <p class="hero-mission-bio">
-            Celebrating the sacred heritage, culture, traditions and timeless spirit of Braj Bhoomi.
-          </p>
-          <p class="hero-context-text">
-            Under the patronage of <strong>Khajani Welfare Society</strong>, Braj Surbhi empowers local craftswomen and traditional craftsmen across Mathura and Vrindavan. We preserve generational artistic traditions through the production of ceremonial deity crowns, traditional entrance torans, and sacred auspicious motifs.
-          </p>
-          <div class="hero-btn-group">
-            <button class="btn-red" onclick="switchPage('products')">
-              <i class="fa-solid fa-bag-shopping"></i> View Handmade Collection
-            </button>
-            <button class="btn-outline-navy" onclick="switchPage('about')">
-              <i class="fa-solid fa-landmark"></i> Our Mission &amp; Heritage
-            </button>
+    <!-- Navigation Tabs -->
+    <nav class="nav-wrap" id="mainNav">
+      <button class="nav-tab-btn active" onclick="showTab('home')">Home</button>
+      <button class="nav-tab-btn" onclick="showTab('story')">Our Story</button>
+      <button class="nav-tab-btn" onclick="showTab('gallery')">Artisan Gallery</button>
+      <button class="nav-tab-btn" onclick="showTab('impact')">Women & Impact</button>
+      <button class="nav-tab-btn" onclick="showTab('faqs')">FAQs</button>
+      <button class="nav-tab-btn" onclick="showTab('contact')">Contact Desk</button>
+      <button class="btn-main d-lg-none mt-3" onclick="showTab('contact')">Enquire on WhatsApp</button>
+    </nav>
+
+    <button class="btn-main" onclick="showTab('contact')">Enquire Now <i class="fa-solid fa-arrow-right"></i></button>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation"><i class="fa-solid fa-bars"></i></button>
+  </div>
+</header>
+
+<main>
+  <!-- TAB 1: HOME -->
+  <section class="view active" id="view-home">
+    <div class="hero-band">
+      <div class="container">
+        <div class="hero-body">
+          <span class="eyebrow"><i class="fa-solid fa-om"></i> Living Traditions of Braj Bhoomi</span>
+          <h1>Tradition, woven<br>with <em>heart.</em></h1>
+          <p>From the sacred threshold of Mathura and Vrindavan, Braj Surbhi brings the authentic warmth of handcrafted Sanjhi bandhanwars, cow dung diyas, and ceremonial deity adornments into your home. Each creation is handmade by local women artisans supported by Khajani Welfare Society.</p>
+          <div class="hero-btns">
+            <button class="btn-main" onclick="showTab('gallery')">View Artisan Gallery <i class="fa-solid fa-arrow-right"></i></button>
+            <button class="btn-light" onclick="showTab('story')">Our Heritage Story</button>
+          </div>
+          <div class="mt-4" style="color: rgba(255,255,255,0.85); font-size: 0.8rem;">
+            TRADITIONAL ARTISANSHIP · SACRED BHOOMI · NO EXPLOITATIVE MIDDLEMEN
           </div>
         </div>
+      </div>
+    </div>
 
-        <div class="hero-showcase-box">
-          <div class="hero-img-stack">
-            <img 
-              src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1790776633/wjgkxr3rsjkxsmeelldh.jpg" 
-              alt="Sacred Mukut Handicraft" 
-            />
-            <div class="hero-img-caption">
-              <span>Authentic Handcrafted Mukut &mdash; Deity Adornment</span>
+    <!-- Live Counter -->
+    <div class="counter-strip">
+      <div class="container counter-grid">
+        <div class="counter-card">
+          <div class="counter-icon"><i class="fa-solid fa-person-dress"></i></div>
+          <div>
+            <h3>400+</h3>
+            <small>Women Artisans Supported</small>
+          </div>
+        </div>
+        <div class="counter-card">
+          <div class="counter-icon"><i class="fa-solid fa-hands-holding-circle"></i></div>
+          <div>
+            <h3>100%</h3>
+            <small>Handcrafted by Artisans</small>
+          </div>
+        </div>
+        <div class="counter-card">
+          <div class="counter-icon"><i class="fa-solid fa-seedling"></i></div>
+          <div>
+            <h3>Pure</h3>
+            <small>Cow Dung & Natural Materials</small>
+          </div>
+        </div>
+        <div class="counter-card">
+          <div class="counter-icon"><i class="fa-solid fa-shield-heart"></i></div>
+          <div>
+            <h3>Direct</h3>
+            <small>Khajani Welfare Initiative</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Overview Section with Sanjhi Bandhanvar -->
+    <div class="section-pad">
+      <div class="container split-grid">
+        <div class="image-stack">
+          <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1790801052/wlkd4u67bar9iu3miks1.jpg" alt="Handmade Sanjhi Bandhanvar">
+          <div class="image-note">
+            <b>Sanjhi Bandhanvar</b>
+            <small>Traditional handcrafted threshold toran honoring ancestral Braj art.</small>
+          </div>
+        </div>
+        <div>
+          <span class="eyebrow" style="color:var(--saffron);">Dignity Through Handwork</span>
+          <h2 class="section-title">A little piece of Braj, wherever you are.</h2>
+          <p class="section-intro">Braj Bhoomi is a living tradition of festive devotion, sacred arts, and time-honored craftsmanship. Behind every item crafted through Braj Surbhi is an artisan mother or young craftswoman building an independent household livelihood.</p>
+          <div class="mt-4">
+            <div class="impact-row">
+              <i class="fa-solid fa-spa"></i>
+              <div>
+                <b>Sacred Devotional Purity</b>
+                <span>Poshaks, mukuts, and natural cow dung diyas made strictly according to respectful ritual customs.</span>
+              </div>
+            </div>
+            <div class="impact-row">
+              <i class="fa-solid fa-hand-holding-dollar"></i>
+              <div>
+                <b>Fair Artisan Compensation</b>
+                <span>Khajani Welfare Society guarantees direct remuneration, cutting out commercial commission brokers.</span>
+              </div>
+            </div>
+          </div>
+          <div class="next-bridge">
+            <div>
+              <small>Continue reading</small>
+              <h3>Discover Our Lineage & Spirit</h3>
+              <p>Explore how Khajani Welfare Society anchors cultural craft in Mathura.</p>
+            </div>
+            <button class="btn-main" onclick="showTab('story')">Next: Our Story <i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TAB 2: STORY -->
+  <section class="view" id="view-story">
+    <div class="section-pad">
+      <div class="container split-grid">
+        <div>
+          <span class="eyebrow" style="color:var(--saffron);">Lineage & Philosophy</span>
+          <h2 class="section-title">Keeping the sacred spirit of Braj alive.</h2>
+          <p class="section-intro">In the villages of Mathura, Govardhan, and Vrindavan, traditional crafts have sustained families for generations. As synthetic factory imports flooded local markets, delicate handmade practices like zari embellishment, cow dung molding, and folk painting faced severe decline.</p>
+          <p class="mt-3"><strong>Braj Surbhi</strong> was created as an institutional initiative under <strong>Khajani Welfare Society</strong> to revive these sacred arts. By organizing women into village-level cottage self-help groups, we provide raw materials, specialized design workshops, and direct market access.</p>
+          <p class="mt-3">Every piece ordered through our coordination desk directly supports independent craft families, ensuring traditional skills thrive in the next generation.</p>
+          <div class="next-bridge mt-5">
+            <div>
+              <small>See artisan creations</small>
+              <h3>Explore the Artisan Gallery</h3>
+              <p>Browse handpainted works, Sanjhi torans, and deity crafts.</p>
+            </div>
+            <button class="btn-main" onclick="showTab('gallery')">Next: Gallery <i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+        </div>
+        <div class="image-stack">
+          <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1791612130/ANWiy9Re0jUCyI-mBRKM91Uhb0gsqbKV-px71ST1ZQr6XXSWgGazREySVX5QScDDq9R117wE5B2wsMQdtYUS1jH_-DaCIdae4T5wf2HeNGDYOJNj9PSXN7MoGB4NM9uj1l-TlqSfy31pqne-jOq6_s1360-w1360-h1020-rw_s2pfme.webp" alt="Braj Heritage Painting">
+          <div class="image-note">
+            <b>Generational Skill</b>
+            <small>Folk paintings and sacred motifs drawn by regional artisans.</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TAB 3: ARTISAN GALLERY (CORRECT TITLES & EXACT IMAGES) -->
+  <section class="view" id="view-gallery">
+    <div class="section-pad">
+      <div class="container">
+        <div class="text-center">
+          <span class="eyebrow" style="color:var(--saffron);">Artisan Creations & Heritage</span>
+          <h2 class="section-title">Artisan Gallery</h2>
+          <p class="section-intro mx-auto">Explore our authentic handcrafted items. Tap any item to inquire directly on WhatsApp with our Mathura desk.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- 1. Sanjhi Bandhanvar -->
+          <div class="gallery-card" onclick="openWhatsAppInquiry('Handmade Sanjhi Bandhanvar')">
+            <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1790801052/wlkd4u67bar9iu3miks1.jpg" alt="Sanjhi Bandhanvar">
+            <div class="gallery-caption">
+              <b>Sanjhi Bandhanvar</b>
+              <small>Heritage entrance toran · Tap to Inquire</small>
+            </div>
+          </div>
+
+          <!-- 2. Traditional Bandhanvar -->
+          <div class="gallery-card" onclick="openWhatsAppInquiry('Traditional Bandhanvar')">
+            <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1790788231/y8xg9r9ykncyyzslvhqf.jpg" alt="Traditional Bandhanvar">
+            <div class="gallery-caption">
+              <b>Traditional Bandhanvar</b>
+              <small>Hand-stitched festive drops · Tap to Inquire</small>
+            </div>
+          </div>
+
+          <!-- 3. Thakur Ji Night Dress -->
+          <div class="gallery-card" onclick="openWhatsAppInquiry('Thakur Ji Night Dress')">
+            <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1790802932/v2pzlgdti4xxtq8txzek.jpg" alt="Thakur Ji Night Dress">
+            <div class="gallery-caption">
+              <b>Thakur Ji Night Dress</b>
+              <small>Pure cotton deity nightwear · Tap to Inquire</small>
+            </div>
+          </div>
+
+          <!-- 4. House Shaped Shubh Labh -->
+          <div class="gallery-card" onclick="openWhatsAppInquiry('House Shaped Shubh Labh')">
+            <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1790784299/oinxv3hxncfnhzpion0v.jpg" alt="House Shaped Shubh Labh">
+            <div class="gallery-caption">
+              <b>House Shaped Shubh Labh</b>
+              <small>Auspicious beaded entrance hanging · Tap to Inquire</small>
+            </div>
+          </div>
+
+          <!-- 5. Laxmi Ji Charan Paduka -->
+          <div class="gallery-card" onclick="openWhatsAppInquiry('Laxmi Ji Charan Paduka')">
+            <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1790785203/l0swcghvrs7aoyi0putm.jpg" alt="Laxmi Ji Charan Paduka">
+            <div class="gallery-caption">
+              <b>Laxmi Ji Charan</b>
+              <small>Embellished sacred footsteps · Tap to Inquire</small>
+            </div>
+          </div>
+
+          <!-- 6. Sacred Seed Balls -->
+          <div class="gallery-card" onclick="openWhatsAppInquiry('Sacred Seed Balls')">
+            <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1790801348/yqnc6rrsspdnm80gspwb.jpg" alt="Sacred Seed Balls">
+            <div class="gallery-caption">
+              <b>Sacred Seed Balls</b>
+              <small>Cow dung eco-greening craft · Tap to Inquire</small>
+            </div>
+          </div>
+
+          <!-- 7. Braj Heritage Painting -->
+          <div class="gallery-card" onclick="openWhatsAppInquiry('Braj Heritage Painting')">
+            <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1791612130/ANWiy9Re0jUCyI-mBRKM91Uhb0gsqbKV-px71ST1ZQr6XXSWgGazREySVX5QScDDq9R117wE5B2wsMQdtYUS1jH_-DaCIdae4T5wf2HeNGDYOJNj9PSXN7MoGB4NM9uj1l-TlqSfy31pqne-jOq6_s1360-w1360-h1020-rw_s2pfme.webp" alt="Braj Heritage Painting">
+            <div class="gallery-caption">
+              <b>Braj Heritage Painting</b>
+              <small>Devotional folk storytelling canvas · Tap to Inquire</small>
+            </div>
+          </div>
+
+          <!-- 8. Handpainted Cotton Bag -->
+          <div class="gallery-card" onclick="openWhatsAppInquiry('Handpainted Cotton Bag')">
+            <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1791612163/ANWiy9SBBf-BwrhF08x55NW9ykGagRheOzQPuH1V67RN0TvU72n1jXuE__iZ3c2tx7AQA5fvh1rc3h96j__7Wizm2w4D4GOOEiP82asI0N4pWAgv6iZA7lpqHsFkWajSZY-vi4UJY2mSHcFC9H0C_s1360-w1360-h1020-rw_jcvirq.webp" alt="Handpainted Cotton Bag">
+            <div class="gallery-caption">
+              <b>Handpainted Cotton Bag</b>
+              <small>Eco-friendly cotton tote art · Tap to Inquire</small>
             </div>
           </div>
         </div>
+
+        <div class="next-bridge mt-5">
+          <div>
+            <small>Understand the impact</small>
+            <h3>Women Empowerment & Social Impact</h3>
+            <p>How your inquiries support over 400 women in rural Mathura.</p>
+          </div>
+          <button class="btn-main" onclick="showTab('impact')">Next: Impact <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
       </div>
     </div>
+  </section>
 
-    <!-- Core Pillars Grid -->
-    <div class="section-title-wrap">
-      <span class="section-subtitle-tag">Guiding Foundations</span>
-      <h2 class="section-main-heading">Serving Heritage &amp; Community</h2>
-      <p class="section-desc-para">
-        Fostering grassroots artisan livelihoods while honoring the ritual purity and devotional legacy of the sacred Braj region.
-      </p>
-    </div>
-
-    <div class="card-grid-3">
-      <div class="institutional-card card-accent-red">
-        <div class="card-icon-box icon-red">
-          <i class="fa-solid fa-gopuram"></i>
-        </div>
-        <h3>Preserving Sacred Tradition</h3>
-        <p>
-          Braj crafts represent centuries of uninterrupted devotional dedication. We document and sustain traditional motifs, hand-embroidery techniques, and ceremonial ornament arrangements passed down through generations.
-        </p>
-      </div>
-
-      <div class="institutional-card card-accent-teal">
-        <div class="card-icon-box icon-teal">
-          <i class="fa-solid fa-hands-holding-circle"></i>
-        </div>
-        <h3>Women's Empowerment</h3>
-        <p>
-          In collaboration with Khajani Welfare Society, our artisan clusters provide fair wages, decentralized cottage workspace, and self-reliance training for local craftswomen across regional rural blocks.
-        </p>
-      </div>
-
-      <div class="institutional-card card-accent-navy">
-        <div class="card-icon-box icon-navy">
-          <i class="fa-solid fa-shield-heart"></i>
-        </div>
-        <h3>Devotional Quality &amp; Purity</h3>
-        <p>
-          Every Mukut, Bandhanwar, and Shubh Labh hanging is crafted with meticulous care, respectful assembly, and premium non-synthetic threads to grace temple sanctuaries and devotional households.
-        </p>
-      </div>
-    </div>
-
-    <!-- Featured Products Preview Bar -->
-    <div class="curated-preview-bar">
-      <div class="preview-header-flex">
+  <!-- TAB 4: WOMEN & IMPACT -->
+  <section class="view" id="view-impact">
+    <div class="section-pad">
+      <div class="container split-grid">
         <div>
-          <span class="section-subtitle-tag">Handcrafted Catalogue</span>
-          <h2 class="section-main-heading" style="margin-bottom: 0;">Featured Auspicious Creations</h2>
-        </div>
-        <button class="btn-outline-navy" onclick="switchPage('products')">
-          Explore All Items <i class="fa-solid fa-arrow-right"></i>
-        </button>
-      </div>
-
-      <div class="product-grid">
-        <!-- Card 1 -->
-        <div class="product-box">
-          <div class="product-box-img-wrapper">
-            <span class="product-tag-pill">Temple Adornment</span>
-            <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1790776633/wjgkxr3rsjkxsmeelldh.jpg" alt="Sacred Mukut" />
+          <span class="eyebrow" style="color:var(--saffron);">Sustained Livelihoods</span>
+          <h2 class="section-title">Supporting over 400+ women artisans.</h2>
+          <p class="section-intro">Behind Braj Surbhi is the community dedication of Khajani Welfare Society. We provide training centers, quality tools, and transparent earnings so mothers and daughters can earn without leaving their family homes.</p>
+          <div class="mt-4">
+            <div class="impact-row">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <div>
+                <b>Daughter Education & Nutrition</b>
+                <span>Supplementary income from handicraft assembly directly funds school supplies and healthcare.</span>
+              </div>
+            </div>
+            <div class="impact-row">
+              <i class="fa-solid fa-house-user"></i>
+              <div>
+                <b>Decentralized Village Production</b>
+                <span>Artisans receive material batches at their doorsteps, giving them flexibility around household routines.</span>
+              </div>
+            </div>
+            <div class="impact-row">
+              <i class="fa-solid fa-seedling"></i>
+              <div>
+                <b>Eco-Friendly Cow Dung Value Chain</b>
+                <span>Transforming locally gathered cow dung into seed balls and smokeless diyas supports clean living.</span>
+              </div>
+            </div>
           </div>
-          <div class="product-box-body">
-            <span class="product-category-sub">Devotional Crown</span>
-            <h3 class="product-name-head">Sacred Mukut</h3>
-            <p class="product-brief-info">Intricately detailed deity crown designed with traditional stone setting and golden borders.</p>
-            <ul class="product-specs-list">
-              <li><span class="spec-label">Artisan Work:</span> <span class="spec-val">Zari &amp; Stone Work</span></li>
-              <li><span class="spec-label">Region:</span> <span class="spec-val">Mathura Heritage</span></li>
-            </ul>
-            <button class="btn-product-whatsapp" onclick="initiateInquiry('Sacred Mukut')">
-              <i class="fa-brands fa-whatsapp"></i> Inquire Order
-            </button>
-          </div>
-        </div>
-
-        <!-- Card 2 -->
-        <div class="product-box">
-          <div class="product-box-img-wrapper">
-            <span class="product-tag-pill">Entrance Decor</span>
-            <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1790780260/b4fygfbtgfnosn75shkq.jpg" alt="Auspicious Shubh Labh" />
-          </div>
-          <div class="product-box-body">
-            <span class="product-category-sub">Festive Door Art</span>
-            <h3 class="product-name-head">Shubh Labh Hangings</h3>
-            <p class="product-brief-info">Handcrafted festive symbols welcoming fortune, peace, and spiritual presence to home doorways.</p>
-            <ul class="product-specs-list">
-              <li><span class="spec-label">Craft Style:</span> <span class="spec-val">Bead &amp; Mirror Embellishment</span></li>
-              <li><span class="spec-label">Purpose:</span> <span class="spec-val">Festivals &amp; Griha Pravesh</span></li>
-            </ul>
-            <button class="btn-product-whatsapp" onclick="initiateInquiry('Shubh Labh Hangings')">
-              <i class="fa-brands fa-whatsapp"></i> Inquire Order
-            </button>
+          <div class="next-bridge mt-5">
+            <div>
+              <small>Common questions</small>
+              <h3>Frequently Asked Questions</h3>
+              <p>Everything you need to know about ordering and shipping.</p>
+            </div>
+            <button class="btn-main" onclick="showTab('faqs')">Next: FAQs <i class="fa-solid fa-arrow-right"></i></button>
           </div>
         </div>
-
-        <!-- Card 3 -->
-        <div class="product-box">
-          <div class="product-box-img-wrapper">
-            <span class="product-tag-pill">Festive Toran</span>
-            <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1790784978/orpdkfvjizbks51nvqvf.jpg" alt="Handcrafted Bandhanwar" />
-          </div>
-          <div class="product-box-body">
-            <span class="product-category-sub">Threshold Valance</span>
-            <h3 class="product-name-head">Handmade Bandhanwar</h3>
-            <p class="product-brief-info">Authentic ceremonial door toran created with fine fabrics, hanging tassels, and festive motifs.</p>
-            <ul class="product-specs-list">
-              <li><span class="spec-label">Standard Fit:</span> <span class="spec-val">Universal Doorway Size</span></li>
-              <li><span class="spec-label">Artistry:</span> <span class="spec-val">Hand-Stitched Assemblage</span></li>
-            </ul>
-            <button class="btn-product-whatsapp" onclick="initiateInquiry('Handmade Bandhanwar')">
-              <i class="fa-brands fa-whatsapp"></i> Inquire Order
-            </button>
+        <div class="image-stack">
+          <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1790801052/wlkd4u67bar9iu3miks1.jpg" alt="Artisan Craft">
+          <div class="image-note">
+            <b>400+ Empowered</b>
+            <small>Active artisan network across Mathura and adjoining rural blocks.</small>
           </div>
         </div>
       </div>
     </div>
-  </main>
+  </section>
 
-  <!-- ========================================== -->
-  <!-- PAGE 2: ABOUT US                           -->
-  <!-- ========================================== -->
-  <section id="view-about" class="page-section">
-    <div class="section-title-wrap">
-      <span class="section-subtitle-tag">Our Lineage &amp; Philosophy</span>
-      <h2 class="section-main-heading">About Braj Surbhi</h2>
-      <p class="section-desc-para">
-        Dedicated to safeguarding the spiritual aesthetics of Braj while building resilient self-reliance for local communities.
-      </p>
-    </div>
-
-    <div class="about-story-grid">
-      <div class="about-text-pane">
-        <h3>The Sacred Spirit of Braj Bhoomi</h3>
-        <p>
-          Braj is not merely a geographic expanse; it is the spiritual and cultural cradle that has inspired devotional poets, master artisans, and spiritual seekers across millennia. Every song, festival, and visual motif emerging from Vrindavan, Mathura, Goverdhan, and Barsana carries an indelible reverence for the divine pastimes.
-        </p>
-        
-        <div class="about-callout-quote">
-          "Celebrating the sacred heritage, culture, traditions and timeless spirit of Braj Bhoomi."
+  <!-- TAB 5: FAQS -->
+  <section class="view" id="view-faqs">
+    <div class="section-pad" style="background: var(--cream);">
+      <div class="container" style="max-width: 860px;">
+        <div class="text-center mb-5">
+          <span class="eyebrow" style="color:var(--saffron);">Clear Information</span>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-intro mx-auto">Find quick answers about our crafts, bulk temple orders, and ordering process.</p>
         </div>
 
-        <p>
-          Over decades of rapid mechanization, regional handmade crafts have faced displacement from synthetic, mass-manufactured imports. <strong>Braj Surbhi</strong> was established as an institutional answer to preserve these hallowed craft techniques and guarantee ethical, living wages to local artisan families.
-        </p>
+        <div class="accordion" id="faqAccordion">
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#q1">
+                How does Braj Surbhi collaborate with Khajani Welfare Society?
+              </button>
+            </h3>
+            <div id="q1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Braj Surbhi is an official craft livelihood project initiated and operated by Khajani Welfare Society. The society organizes, trains, and compensates local women, while Braj Surbhi provides the direct market bridge to patrons.
+              </div>
+            </div>
+          </div>
 
-        <p>
-          Working closely under the administrative and grassroots network of <strong>Khajani Welfare Society</strong>, we create direct channels for craftspeople to reach devotees, temples, and cultural institutions globally without exploitative middlemen.
-        </p>
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q2">
+                Are the seed balls and cow dung items natural?
+              </button>
+            </h3>
+            <div id="q2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Yes. Our seed balls and cow dung diyas use indigenous cow dung (Gomaye), natural clay, and native tree seeds. They are 100% biodegradable and return harmlessly to nature.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q3">
+                How do I order or request custom deity sizes?
+              </button>
+            </h3>
+            <div id="q3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                You can reach us directly on WhatsApp at +91 8218408535. Mention the item name, your deity idol dimensions (e.g., Laddu Gopal size 0 to 6), or custom doorway lengths.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q4">
+                Do you support bulk temple and festive orders?
+              </button>
+            </h3>
+            <div id="q4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Yes. We regularly supply bulk batches of Sanjhi bandhanwars, cow dung diyas, seed balls, and ceremonial poshaks for Janmashtami, Diwali, Radha Ashtami, and temple trust celebrations across India.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="next-bridge mt-5">
+          <div>
+            <small>Direct communication</small>
+            <h3>Ready to Connect?</h3>
+            <p>Our team is available to assist your order and questions.</p>
+          </div>
+          <button class="btn-main" onclick="showTab('contact')">Next: Contact Desk <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
       </div>
-
-      <div class="about-side-stats">
-        <div class="stat-metric-block">
-          <div class="stat-number">100%</div>
-          <div class="stat-title">Artisan Handcrafted</div>
-          <p class="stat-explainer">Every item is individually assembled by trained traditional artisans in Braj.</p>
-        </div>
-
-        <div class="stat-metric-block">
-          <div class="stat-number">250+</div>
-          <div class="stat-title">Artisan Families Supported</div>
-          <p class="stat-explainer">Empowered through Khajani Welfare Society's grassroots livelihood programs.</p>
-        </div>
-
-        <div class="stat-metric-block">
-          <div class="stat-number">Pure</div>
-          <div class="stat-title">Devotional Authenticity</div>
-          <p class="stat-explainer">Crafted with respect, clean handling, and traditional ritual etiquette.</p>
-        </div>
-      </div>
     </div>
+  </section>
 
-    <!-- Institutional Parent Organization Profile -->
-    <div class="society-profile-section">
-      <div class="society-flex-row">
-        <img 
-          src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1780481420/yjrsvaizrmprlbrrdsde.png" 
-          alt="Khajani Welfare Society" 
-          class="society-big-logo" 
-        />
+  <!-- TAB 6: CONTACT DESK -->
+  <section class="view" id="view-contact">
+    <div class="section-pad">
+      <div class="container split-grid">
         <div>
-          <h3 style="font-family: var(--font-serif); font-size: 1.4rem; color: var(--navy-royal); margin-bottom: 0.3rem;">
-            Khajani Welfare Society
-          </h3>
-          <p style="font-size: 0.92rem; color: var(--secondary-teal); font-weight: 600;">
-            Institutional Anchor &amp; Grassroots Community Development Organization
-          </p>
-        </div>
-      </div>
-      <p style="font-size: 0.94rem; color: var(--text-body); line-height: 1.7; margin-bottom: 1rem;">
-        Khajani Welfare Society is a registered development organization that operates vocational training centers, women's self-help collectives, health camps, and cultural preservation initiatives throughout the region. By mobilizing rural women and youth, the society builds independent skill foundations that translate directly into sustained economic dignity.
-      </p>
-      <p style="font-size: 0.94rem; color: var(--text-body); line-height: 1.7;">
-        <strong>Braj Surbhi</strong> functions as the society’s dedicated cultural preservation brand, ensuring that traditional craftsmanship and ceremonial folk work find appreciative homes, pooja rooms, and temples nationwide.
-      </p>
-    </div>
-  </section>
-
-  <!-- ========================================== -->
-  <!-- PAGE 3: INITIATIVES                        -->
-  <!-- ========================================== -->
-  <section id="view-initiatives" class="page-section">
-    <div class="section-title-wrap">
-      <span class="section-subtitle-tag">Social Welfare &amp; Impact</span>
-      <h2 class="section-main-heading">Grassroots Initiatives</h2>
-      <p class="section-desc-para">
-        How our structured programs create sustainable livelihoods, preserve cultural techniques, and empower women in rural Braj.
-      </p>
-    </div>
-
-    <div class="initiatives-detailed-grid">
-      <div class="initiative-detailed-box">
-        <h3><i class="fa-solid fa-chalkboard-user" style="color: var(--primary-red);"></i> Artisan Skill Certification</h3>
-        <p>
-          Through community training centers established by Khajani Welfare Society, women from agrarian families receive structured training in intricate needlework, stone setting, and traditional cloth folding.
-        </p>
-        <ul class="initiative-checklist">
-          <li><i class="fa-solid fa-circle-check"></i> Free multi-week training programs with provided materials</li>
-          <li><i class="fa-solid fa-circle-check"></i> Mentorship from master generational craftsmen of Mathura</li>
-          <li><i class="fa-solid fa-circle-check"></i> Certification recognizing traditional artisan capability</li>
-        </ul>
-      </div>
-
-      <div class="initiative-detailed-box">
-        <h3><i class="fa-solid fa-hand-holding-dollar" style="color: var(--secondary-teal);"></i> Direct Financial Empowerment</h3>
-        <p>
-          We bypass middlemen and commercial brokers. Artisans receive compensation directly for finished work, ensuring transparent income that supports household education and well-being.
-        </p>
-        <ul class="initiative-checklist">
-          <li><i class="fa-solid fa-circle-check"></i> Dignified, fair remuneration reflecting skilled hand-labor</li>
-          <li><i class="fa-solid fa-circle-check"></i> Direct digital and verified cash-free account transfers</li>
-          <li><i class="fa-solid fa-circle-check"></i> Flexible home-based cottage assembly models for mothers</li>
-        </ul>
-      </div>
-
-      <div class="initiative-detailed-box">
-        <h3><i class="fa-solid fa-scroll" style="color: var(--navy-royal);"></i> Archiving Endangered Folk Motifs</h3>
-        <p>
-          Many classic temple decor styles and Sanjhi-influenced patterns risk being replaced by cheap plastic printouts. We actively document and preserve authentic traditional patterns.
-        </p>
-        <ul class="initiative-checklist">
-          <li><i class="fa-solid fa-circle-check"></i> Documentation of vintage Braj temple valance patterns</li>
-          <li><i class="fa-solid fa-circle-check"></i> Reproduction of sacred festive Shubh Labh geometry</li>
-          <li><i class="fa-solid fa-circle-check"></i> Sourcing biodegradable cotton cords and brass bells</li>
-        </ul>
-      </div>
-
-      <div class="initiative-detailed-box">
-        <h3><i class="fa-solid fa-tree" style="color: var(--secondary-teal);"></i> Sustainable Sacred Packaging</h3>
-        <p>
-          In keeping with the sacred ecology of Braj and Yamuna ji, our initiative continually moves toward plastic-free, recyclable, and reusable cloth packaging for sacred products.
-        </p>
-        <ul class="initiative-checklist">
-          <li><i class="fa-solid fa-circle-check"></i> Reusable cotton bags stitched by trainee artisan groups</li>
-          <li><i class="fa-solid fa-circle-check"></i> Minimalistic, recyclable outer transit casing</li>
-          <li><i class="fa-solid fa-circle-check"></i> Respectful disposal and sacred handling guidelines</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========================================== -->
-  <!-- PAGE 4: PRODUCTS CATALOG                   -->
-  <!-- ========================================== -->
-  <section id="view-products" class="page-section">
-    <div class="section-title-wrap">
-      <span class="section-subtitle-tag">Handmade Devotional Artifacts</span>
-      <h2 class="section-main-heading">The Braj Surbhi Collection</h2>
-      <p class="section-desc-para">
-        Each item is handcrafted by traditional artisans associated with Khajani Welfare Society. Direct inquiry available via WhatsApp.
-      </p>
-    </div>
-
-    <div class="product-grid">
-      <!-- Item 1: Mukut -->
-      <div class="product-box">
-        <div class="product-box-img-wrapper">
-          <span class="product-tag-pill">Deity Crown</span>
-          <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1790776633/wjgkxr3rsjkxsmeelldh.jpg" alt="Sacred Deity Mukut" />
-        </div>
-        <div class="product-box-body">
-          <span class="product-category-sub">Pooja Adornment</span>
-          <h3 class="product-name-head">Sacred Mukut</h3>
-          <p class="product-brief-info">
-            Elegantly proportioned ceremonial crown for deity shringar. Features fine thread framing, mirror work accents, and vibrant stone setting.
-          </p>
-          <ul class="product-specs-list">
-            <li><span class="spec-label">Material:</span> <span class="spec-val">Zari, Kundan Stones, Base Cloth</span></li>
-            <li><span class="spec-label">Ideal For:</span> <span class="spec-val">Laddu Gopal &amp; Deity Vigraha</span></li>
-            <li><span class="spec-label">Origin:</span> <span class="spec-val">Braj Artisan Cluster</span></li>
-          </ul>
-          <button class="btn-product-whatsapp" onclick="initiateInquiry('Sacred Mukut')">
-            <i class="fa-brands fa-whatsapp"></i> Inquire This Product
-          </button>
-        </div>
-      </div>
-
-      <!-- Item 2: Shubh Labh Variant A -->
-      <div class="product-box">
-        <div class="product-box-img-wrapper">
-          <span class="product-tag-pill">Entrance Hanging</span>
-          <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1790780260/b4fygfbtgfnosn75shkq.jpg" alt="Shubh Labh Hangings" />
-        </div>
-        <div class="product-box-body">
-          <span class="product-category-sub">Auspicious Decor</span>
-          <h3 class="product-name-head">Traditional Shubh Labh</h3>
-          <p class="product-brief-info">
-            Pairs of handcrafted auspicious wall hangings invoking divine blessings of wisdom and prosperity at the main household threshold.
-          </p>
-          <ul class="product-specs-list">
-            <li><span class="spec-label">Set Includes:</span> <span class="spec-val">Pair (Shubh &amp; Labh)</span></li>
-            <li><span class="spec-label">Finish:</span> <span class="spec-val">Beaded Trim &amp; Sacred Red Accents</span></li>
-            <li><span class="spec-label">Installation:</span> <span class="spec-val">Pre-attached Hanging Loop</span></li>
-          </ul>
-          <button class="btn-product-whatsapp" onclick="initiateInquiry('Traditional Shubh Labh Hangings')">
-            <i class="fa-brands fa-whatsapp"></i> Inquire This Product
-          </button>
-        </div>
-      </div>
-
-      <!-- Item 3: Floral Shubh Labh -->
-      <div class="product-box">
-        <div class="product-box-img-wrapper">
-          <span class="product-tag-pill">Door Hanging</span>
-          <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1790781962/coakr87bgtlyeseccgmc.jpg" alt="Floral Shubh Labh Pair" />
-        </div>
-        <div class="product-box-body">
-          <span class="product-category-sub">Festive Embellishment</span>
-          <h3 class="product-name-head">Floral Shubh Labh Pair</h3>
-          <p class="product-brief-info">
-            Designed with intricate petal outlines and auspicious center calligraphy. Hand-stitched with vibrant borders suitable for festivals and gifting.
-          </p>
-          <ul class="product-specs-list">
-            <li><span class="spec-label">Design:</span> <span class="spec-val">Lotus Petal Silhouette</span></li>
-            <li><span class="spec-label">Color Theme:</span> <span class="spec-val">Sacred Red &amp; Golden Thread</span></li>
-            <li><span class="spec-label">Usage:</span> <span class="spec-val">Pooja Room &amp; Mandir Door</span></li>
-          </ul>
-          <button class="btn-product-whatsapp" onclick="initiateInquiry('Floral Shubh Labh Pair')">
-            <i class="fa-brands fa-whatsapp"></i> Inquire This Product
-          </button>
-        </div>
-      </div>
-
-      <!-- Item 4: Auspicious Emblem -->
-      <div class="product-box">
-        <div class="product-box-img-wrapper">
-          <span class="product-tag-pill">Wall Artifact</span>
-          <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1790781505/pky5upuyw2wqlgmaj4uk.jpg" alt="Divine Auspicious Motif" />
-        </div>
-        <div class="product-box-body">
-          <span class="product-category-sub">Sacred Handicraft</span>
-          <h3 class="product-name-head">Divine Auspicious Motif</h3>
-          <p class="product-brief-info">
-            Compact decorative art medallion showcasing sacred iconography. Meticulously framed with fine beading and traditional cloth backing.
-          </p>
-          <ul class="product-specs-list">
-            <li><span class="spec-label">Craft Form:</span> <span class="spec-val">Framed Textile Handicraft</span></li>
-            <li><span class="spec-label">Application:</span> <span class="spec-val">Wall Accent &amp; Car Shrine</span></li>
-            <li><span class="spec-label">Durability:</span> <span class="spec-val">Reinforced Base Stiffener</span></li>
-          </ul>
-          <button class="btn-product-whatsapp" onclick="initiateInquiry('Divine Auspicious Motif')">
-            <i class="fa-brands fa-whatsapp"></i> Inquire This Product
-          </button>
-        </div>
-      </div>
-
-      <!-- Item 5: Bandhanwar -->
-      <div class="product-box">
-        <div class="product-box-img-wrapper">
-          <span class="product-tag-pill">Ceremonial Toran</span>
-          <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1790784978/orpdkfvjizbks51nvqvf.jpg" alt="Handcrafted Bandhanwar" />
-        </div>
-        <div class="product-box-body">
-          <span class="product-category-sub">Threshold Valance</span>
-          <h3 class="product-name-head">Handmade Bandhanwar</h3>
-          <p class="product-brief-info">
-            Traditional door toran designed to grace entrances with timeless festive charm. Created by women artisans using auspicious fabric hangings.
-          </p>
-          <ul class="product-specs-list">
-            <li><span class="spec-label">Length:</span> <span class="spec-val">Standard 38" to 42" Doors</span></li>
-            <li><span class="spec-label">Elements:</span> <span class="spec-val">Embroidered drops &amp; beads</span></li>
-            <li><span class="spec-label">Significance:</span> <span class="spec-val">Welcoming Positive Vibrations</span></li>
-          </ul>
-          <button class="btn-product-whatsapp" onclick="initiateInquiry('Handmade Bandhanwar Toran')">
-            <i class="fa-brands fa-whatsapp"></i> Inquire This Product
-          </button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========================================== -->
-  <!-- PAGE 5: GALLERY                            -->
-  <!-- ========================================== -->
-  <section id="view-gallery" class="page-section">
-    <div class="section-title-wrap">
-      <span class="section-subtitle-tag">Visual Archives</span>
-      <h2 class="section-main-heading">Craftsmanship &amp; Heritage Gallery</h2>
-      <p class="section-desc-para">
-        Visual glimpses of traditional handcrafting, ceremonial ornaments, and the artistic ethos of Braj Surbhi.
-      </p>
-    </div>
-
-    <!-- Filter Buttons -->
-    <div class="gallery-filter-controls">
-      <button class="gallery-filter-btn active-tab" onclick="filterGallery('all', this)">All Works</button>
-      <button class="gallery-filter-btn" onclick="filterGallery('deity', this)">Deity Adornments</button>
-      <button class="gallery-filter-btn" onclick="filterGallery('door', this)">Door &amp; Entrance Art</button>
-      <button class="gallery-filter-btn" onclick="filterGallery('insignia', this)">Institutional Marks</button>
-    </div>
-
-    <!-- Gallery Grid -->
-    <div class="gallery-cards-grid">
-      <div class="gallery-single-card" data-cat="deity">
-        <div class="gallery-img-container">
-          <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1790776633/wjgkxr3rsjkxsmeelldh.jpg" alt="Sacred Mukut Detailed View" />
-        </div>
-        <div class="gallery-card-desc">
-          <h4>Devotional Mukut Detail</h4>
-          <p>Traditional stone placement and zari crown architecture.</p>
-        </div>
-      </div>
-
-      <div class="gallery-single-card" data-cat="door">
-        <div class="gallery-img-container">
-          <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1790780260/b4fygfbtgfnosn75shkq.jpg" alt="Shubh Labh Hangings" />
-        </div>
-        <div class="gallery-card-desc">
-          <h4>Shubh Labh Traditional Hanging</h4>
-          <p>Beaded wall decor for auspicious festive greetings.</p>
-        </div>
-      </div>
-
-      <div class="gallery-single-card" data-cat="door">
-        <div class="gallery-img-container">
-          <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1790781962/coakr87bgtlyeseccgmc.jpg" alt="Floral Motif Shubh Labh" />
-        </div>
-        <div class="gallery-card-desc">
-          <h4>Floral Shubh Labh Pair</h4>
-          <p>Hand-cut petals with traditional red thread work.</p>
-        </div>
-      </div>
-
-      <div class="gallery-single-card" data-cat="door">
-        <div class="gallery-img-container">
-          <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1790781505/pky5upuyw2wqlgmaj4uk.jpg" alt="Devotional Wall Artifact" />
-        </div>
-        <div class="gallery-card-desc">
-          <h4>Auspicious Wall Medallion</h4>
-          <p>Devotional decorative crest for sacred spaces.</p>
-        </div>
-      </div>
-
-      <div class="gallery-single-card" data-cat="door">
-        <div class="gallery-img-container">
-          <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1790784978/orpdkfvjizbks51nvqvf.jpg" alt="Bandhanwar Toran" />
-        </div>
-        <div class="gallery-card-desc">
-          <h4>Festive Bandhanwar Toran</h4>
-          <p>Threshold valance handcrafted by women's collectives.</p>
-        </div>
-      </div>
-
-      <div class="gallery-single-card" data-cat="insignia">
-        <div class="gallery-img-container">
-          <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1791378962/file_00000000d9748246822b57ba7ad9acd6_u3b6tl.png" alt="Braj Surbhi Insignia" />
-        </div>
-        <div class="gallery-card-desc">
-          <h4>Braj Surbhi Official Insignia</h4>
-          <p>Symbol of cultural preservation and devotional purity.</p>
-        </div>
-      </div>
-
-      <div class="gallery-single-card" data-cat="insignia">
-        <div class="gallery-img-container">
-          <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1780481420/yjrsvaizrmprlbrrdsde.png" alt="Khajani Welfare Society Insignia" />
-        </div>
-        <div class="gallery-card-desc">
-          <h4>Khajani Welfare Society Seal</h4>
-          <p>Non-profit social organization guiding grassroots development.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========================================== -->
-  <!-- PAGE 6: ARTISAN IMPACT                     -->
-  <!-- ========================================== -->
-  <section id="view-impact" class="page-section">
-    <div class="section-title-wrap">
-      <span class="section-subtitle-tag">Dignity Through Craft</span>
-      <h2 class="section-main-heading">Artisan Empowerment &amp; Social Impact</h2>
-      <p class="section-desc-para">
-        Every purchase of a Braj Surbhi handicraft directly strengthens families, educates children, and protects generational cultural skills.
-      </p>
-    </div>
-
-    <div class="card-grid-3" style="margin-bottom: 3.5rem;">
-      <div class="institutional-card card-accent-red">
-        <div class="card-icon-box icon-red">
-          <i class="fa-solid fa-graduation-cap"></i>
-        </div>
-        <h3>Childhood Education</h3>
-        <p>
-          By ensuring consistent monthly supplementary income for female artisans, families are able to sustain schooling and supplies for their children without interruption.
-        </p>
-      </div>
-
-      <div class="institutional-card card-accent-teal">
-        <div class="card-icon-box icon-teal">
-          <i class="fa-solid fa-house-chimney"></i>
-        </div>
-        <h3>Decentralized Home Work</h3>
-        <p>
-          Mothers in rural Braj can balance family care with productive artistry. Materials are delivered directly to village clusters and collected upon quality inspection.
-        </p>
-      </div>
-
-      <div class="institutional-card card-accent-navy">
-        <div class="card-icon-box icon-navy">
-          <i class="fa-solid fa-handshake-angle"></i>
-        </div>
-        <h3>Eradicating Exploitation</h3>
-        <p>
-          Traditional artisans historically earned a fraction of market retail prices from commercial distributors. Khajani Welfare Society provides transparent compensation structures.
-        </p>
-      </div>
-    </div>
-
-    <!-- Impact Story Callout -->
-    <div class="hero-panel" style="background: var(--bg-paper);">
-      <div style="padding: 2.5rem 3rem;">
-        <span class="hero-badge" style="background: var(--secondary-teal-light); color: var(--secondary-teal); border-color: rgba(13, 148, 136, 0.3);">
-          The Artisan Journey
-        </span>
-        <h3 style="font-family: var(--font-serif); font-size: 1.8rem; color: var(--navy-royal); margin-bottom: 1rem;">
-          Preserving Mathura's Living Sacred Arts
-        </h3>
-        <p style="font-size: 0.98rem; color: var(--text-body); line-height: 1.75; margin-bottom: 1.5rem;">
-          In the narrow lanes of Mathura and the surrounding villages of Govardhan and Baldeo, the delicate art of crafting deity ornaments has been practiced for hundreds of years. The process requires steady hands, sharp eyesight, and above all, devotional sentiment (Bhava). Through Braj Surbhi, we ensure this heritage does not disappear into memory, but thrives with modern quality and fair-trade ethics.
-        </p>
-        <button class="btn-red" onclick="switchPage('products')">
-          <i class="fa-solid fa-heart"></i> Support Artisans &mdash; View Products
-        </button>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========================================== -->
-  <!-- PAGE 7: FAQ                                -->
-  <!-- ========================================== -->
-  <section id="view-faq" class="page-section">
-    <div class="section-title-wrap">
-      <span class="section-subtitle-tag">Common Inquiries</span>
-      <h2 class="section-main-heading">Frequently Asked Questions</h2>
-      <p class="section-desc-para">
-        Information regarding product handling, bulk orders for festivals and temples, shipping, and initiative verification.
-      </p>
-    </div>
-
-    <div class="faq-accordion-box">
-      <div class="faq-row active">
-        <button class="faq-question-btn" onclick="toggleFaq(this)">
-          <span>What is Braj Surbhi's relationship with Khajani Welfare Society?</span>
-          <i class="fa-solid fa-chevron-down"></i>
-        </button>
-        <div class="faq-answer-pane">
-          Braj Surbhi is an official livelihood and cultural preservation initiative run by Khajani Welfare Society. While Khajani Welfare Society oversees broad community development, vocational training, and welfare programs, Braj Surbhi serves as the platform bringing the artisans' sacred handicrafts directly to devotees and consumers.
-        </div>
-      </div>
-
-      <div class="faq-row">
-        <button class="faq-question-btn" onclick="toggleFaq(this)">
-          <span>Are all products genuinely handmade in the Braj region?</span>
-          <i class="fa-solid fa-chevron-down"></i>
-        </button>
-        <div class="faq-answer-pane">
-          Yes, 100% of our Mukuts, Shubh Labh decor items, and Bandhanwars are hand-assembled and detailed by craftspeople trained through our regional artisan clusters in Mathura and surrounding Braj Bhoomi blocks.
-        </div>
-      </div>
-
-      <div class="faq-row">
-        <button class="faq-question-btn" onclick="toggleFaq(this)">
-          <span>How can I place an order or inquire about wholesale purchases?</span>
-          <i class="fa-solid fa-chevron-down"></i>
-        </button>
-        <div class="faq-answer-pane">
-          You can click the "Inquire on WhatsApp" button on any product card, or use the dedicated inquiry form on our Contact Us page. Our coordinator desk will connect with you regarding dimensions, availability, custom requirements, and delivery arrangements.
-        </div>
-      </div>
-
-      <div class="faq-row">
-        <button class="faq-question-btn" onclick="toggleFaq(this)">
-          <span>Do you supply to temples, ashrams, and festive community events?</span>
-          <i class="fa-solid fa-chevron-down"></i>
-        </button>
-        <div class="faq-answer-pane">
-          Yes. We frequently coordinate bulk orders of deity mukuts, torans, and festive items for Janmashtami, Diwali, Radha Ashtami, and temple trust requirements across India and internationally.
-        </div>
-      </div>
-
-      <div class="faq-row">
-        <button class="faq-question-btn" onclick="toggleFaq(this)">
-          <span>How are the products packaged for shipping?</span>
-          <i class="fa-solid fa-chevron-down"></i>
-        </button>
-        <div class="faq-answer-pane">
-          Every piece is carefully wrapped to prevent stone displacement, thread snagging, or moisture exposure during transit, ensuring the sacred ornaments arrive in pristine ceremonial condition.
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========================================== -->
-  <!-- PAGE 8: CONTACT US                         -->
-  <!-- ========================================== -->
-  <section id="view-contact" class="page-section">
-    <div class="section-title-wrap">
-      <span class="section-subtitle-tag">Reach Our Team</span>
-      <h2 class="section-main-heading">Artisan &amp; Coordination Desk</h2>
-      <p class="section-desc-para">
-        Get in touch for individual orders, temple bulk inquiries, artisan collaboration, or welfare partnerships.
-      </p>
-    </div>
-
-    <div class="contact-layout-grid">
-      <div class="contact-info-col">
-        <h3>Braj Surbhi Help Desk</h3>
-        <p>
-          Managed in direct partnership with Khajani Welfare Society. We are happy to answer your questions regarding sacred crafts, bulk temple supply, or artisan support initiatives.
-        </p>
-
-        <div class="contact-detail-items">
-          <div class="detail-item-row">
-            <div class="detail-icon-circle">
+          <span class="eyebrow" style="color:var(--saffron);">Direct Contact Desk</span>
+          <h2 class="section-title">Let's talk about what you need.</h2>
+          <p class="section-intro">Have a question regarding custom deity measurements, bulk orders, or supporting our artisan clusters? Reach our team in Mathura directly.</p>
+          <div class="mt-4">
+            <div class="impact-row">
+              <i class="fa-brands fa-whatsapp text-success" style="font-size: 1.5rem;"></i>
+              <div>
+                <b>Direct WhatsApp Channel</b>
+                <span>+91 8218408535</span>
+              </div>
+            </div>
+            <div class="impact-row">
               <i class="fa-solid fa-map-location-dot"></i>
+              <div>
+                <b>Artisan Headquarters</b>
+                <span>Mathura & Vrindavan Region, Uttar Pradesh, India</span>
+              </div>
             </div>
-            <div class="detail-text-pair">
-              <span class="detail-label">Headquarters Region</span>
-              <span class="detail-main">Braj Bhoomi, Mathura, Uttar Pradesh, India</span>
-            </div>
-          </div>
-
-          <div class="detail-item-row">
-            <div class="detail-icon-circle">
-              <i class="fa-solid fa-building-ngo"></i>
-            </div>
-            <div class="detail-text-pair">
-              <span class="detail-label">Governing Institution</span>
-              <span class="detail-main">Khajani Welfare Society</span>
+            <div class="impact-row">
+              <i class="fa-solid fa-hands-holding-child"></i>
+              <div>
+                <b>Parent Organization</b>
+                <span>Khajani Welfare Society (Registered Non-Profit)</span>
+              </div>
             </div>
           </div>
-
-          <div class="detail-item-row">
-            <div class="detail-icon-circle">
-              <i class="fa-solid fa-calendar-check"></i>
-            </div>
-            <div class="detail-text-pair">
-              <span class="detail-label">Support Hours</span>
-              <span class="detail-main">Monday to Saturday: 10:00 AM &ndash; 6:00 PM IST</span>
-            </div>
-          </div>
-
-          <div class="detail-item-row">
-            <div class="detail-icon-circle" style="color: #25d366; background: #f0fdf4;">
-              <i class="fa-brands fa-whatsapp"></i>
-            </div>
-            <div class="detail-text-pair">
-              <span class="detail-label">WhatsApp Channel</span>
-              <span class="detail-main">Direct dispatch to product coordinator</span>
-            </div>
+          <div class="mt-4">
+            <a href="https://wa.me/918218408535?text=Namaste!%20I%20am%20visiting%20the%20Braj%20Surbhi%20website%20and%20would%20like%20to%20connect." class="btn-main" target="_blank" rel="noopener">
+              Chat Directly on WhatsApp <i class="fa-brands fa-whatsapp"></i>
+            </a>
           </div>
         </div>
 
-        <button class="btn-red" style="width: 100%; justify-content: center;" onclick="initiateInquiry('General Coordinator Inquiry')">
-          <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp Now
-        </button>
-      </div>
-
-      <div class="form-pane">
-        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; color: var(--navy-royal); margin-bottom: 1.2rem;">
-          Send an Online Inquiry
-        </h4>
-        <form id="inquiry-form" onsubmit="handleFormSubmission(event)">
-          <div class="form-group-field">
-            <label for="fullName">Your Name</label>
-            <input type="text" id="fullName" placeholder="Enter full name" required />
-          </div>
-
-          <div class="form-group-field">
-            <label for="phoneEmail">Phone Number / Email</label>
-            <input type="text" id="phoneEmail" placeholder="Phone or email address" required />
-          </div>
-
-          <div class="form-group-field">
-            <label for="inquiryType">Inquiry Classification</label>
-            <select id="inquiryType">
-              <option value="Product Order">Handicraft Product Inquiry</option>
-              <option value="Temple Bulk Order">Bulk / Temple Trust Supply</option>
-              <option value="Artisan Support">Khajani Welfare Society Partnership</option>
-              <option value="General Question">General Heritage Query</option>
-            </select>
-          </div>
-
-          <div class="form-group-field">
-            <label for="messageText">Your Message or Requirements</label>
-            <textarea id="messageText" placeholder="Please specify items of interest, required quantities, or your question..." required></textarea>
-          </div>
-
-          <button type="submit" class="btn-red" style="width: 100%; justify-content: center; font-size: 1rem;">
-            <i class="fa-solid fa-paper-plane"></i> Submit Inquiry
-          </button>
-        </form>
+        <div class="contact-box">
+          <h3>Send an Inquiry</h3>
+          <p class="text-muted small mb-4">Complete the form below to auto-prepare your inquiry for WhatsApp dispatch.</p>
+          <form id="contactForm" onsubmit="handleInquirySubmit(event)">
+            <div class="mb-3">
+              <label for="cName" class="form-label">Full Name *</label>
+              <input type="text" id="cName" class="form-control" placeholder="Enter your full name" required>
+            </div>
+            <div class="mb-3">
+              <label for="cPhone" class="form-label">Phone / WhatsApp Number</label>
+              <input type="tel" id="cPhone" class="form-control" placeholder="Your contact number">
+            </div>
+            <div class="mb-3">
+              <label for="cItem" class="form-label">Item of Interest</label>
+              <select id="cItem" class="form-select">
+                <option value="Sanjhi Bandhanvar">Sanjhi Bandhanvar</option>
+                <option value="Traditional Bandhanvar">Traditional Bandhanvar</option>
+                <option value="Thakur Ji Night Dress">Thakur Ji Night Dress</option>
+                <option value="House Shaped Shubh Labh">House Shaped Shubh Labh</option>
+                <option value="Laxmi Ji Charan Paduka">Laxmi Ji Charan Paduka</option>
+                <option value="Sacred Seed Balls">Sacred Seed Balls</option>
+                <option value="Braj Heritage Painting">Braj Heritage Painting</option>
+                <option value="Handpainted Cotton Bag">Handpainted Cotton Bag</option>
+                <option value="Bulk Temple Supply">Bulk Temple Supply</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="cMsg" class="form-label">Your Message or Requirements *</label>
+              <textarea id="cMsg" class="form-control" rows="3" placeholder="Tell us sizes, quantities, or specific questions..." required></textarea>
+            </div>
+            <button type="submit" class="btn-main w-100">Send Inquiry to WhatsApp <i class="fa-brands fa-whatsapp"></i></button>
+          </form>
+        </div>
       </div>
     </div>
   </section>
+</main>
 
-  <!-- Complete Institutional Footer -->
-  <footer class="site-footer">
-    <div class="footer-top-cluster">
-      <div class="footer-col">
-        <h4>Braj Surbhi</h4>
-        <p class="footer-brand-bio">
-          Celebrating the sacred heritage, culture, traditions and timeless spirit of Braj Bhoomi. An authentic devotional handicraft initiative fostered by Khajani Welfare Society.
-        </p>
-        <div class="footer-logos-duo">
-          <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1791378962/file_00000000d9748246822b57ba7ad9acd6_u3b6tl.png" alt="Braj Surbhi" class="foot-logo" />
-          <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1780481420/yjrsvaizrmprlbrrdsde.png" alt="Khajani Welfare Society" class="foot-logo" />
+<!-- Footer with Clean White Pill Logo Container -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo-pill">
+          <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1791378962/file_00000000d9748246822b57ba7ad9acd6_u3b6tl.png" alt="Braj Surbhi">
+          <img src="https://res.cloudinary.com/dpeijmtb6/image/upload/v1780481420/yjrsvaizrmprlbrrdsde.png" alt="Khajani Welfare Society">
+        </div>
+        <p>Celebrating the living heritage of Braj Bhoomi through handcrafted deity adornments, bandhanwars, and eco-friendly crafts that empower over 400+ rural women artisans.</p>
+      </div>
+
+      <div>
+        <h4>Explore</h4>
+        <div class="footer-links">
+          <button onclick="showTab('home')">Home Overview</button>
+          <button onclick="showTab('story')">Our Heritage Story</button>
+          <button onclick="showTab('gallery')">Artisan Gallery</button>
+          <button onclick="showTab('impact')">Women Empowerment</button>
+          <button onclick="showTab('faqs')">Frequently Asked Questions</button>
         </div>
       </div>
 
-      <div class="footer-col">
-        <h4>Navigation</h4>
-        <ul>
-          <li><a onclick="switchPage('home')">Home Overview</a></li>
-          <li><a onclick="switchPage('about')">About Our Lineage</a></li>
-          <li><a onclick="switchPage('initiatives')">Welfare Initiatives</a></li>
-          <li><a onclick="switchPage('products')">Handicraft Catalog</a></li>
-          <li><a onclick="switchPage('gallery')">Visual Archives</a></li>
-          <li><a onclick="switchPage('impact')">Artisan Impact</a></li>
-          <li><a onclick="switchPage('faq')">Help &amp; FAQ</a></li>
-          <li><a onclick="switchPage('contact')">Contact Desk</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col">
-        <h4>Devotional Creations</h4>
-        <ul>
-          <li><a onclick="switchPage('products')">Sacred Deity Mukuts</a></li>
-          <li><a onclick="switchPage('products')">Shubh Labh Hangings</a></li>
-          <li><a onclick="switchPage('products')">Floral Door Art</a></li>
-          <li><a onclick="switchPage('products')">Handmade Bandhanwars</a></li>
-          <li><a onclick="switchPage('products')">Divine Auspicious Motifs</a></li>
-          <li><a onclick="switchPage('contact')">Custom Temple Adornments</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col">
-        <h4>Institutional Desk</h4>
-        <div class="footer-contact-listing">
-          <p><i class="fa-solid fa-landmark"></i> <strong>Khajani Welfare Society</strong></p>
-          <p><i class="fa-solid fa-location-dot"></i> Mathura &mdash; Vrindavan Region, Uttar Pradesh, India</p>
-          <p><i class="fa-solid fa-hands-holding"></i> Empowering rural women artisans through craft</p>
-          <p><i class="fa-solid fa-envelope"></i> Coordinator Desk: Accessible via direct inquiry</p>
+      <div>
+        <h4>Initiative Links</h4>
+        <div class="footer-links">
+          <a href="https://khajani-welfare-society.vercel.app/" target="_blank" rel="noopener" style="color: rgba(255,255,255,0.78);">Khajani Welfare Society <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i></a>
+          <button onclick="openWhatsAppInquiry('Bulk Temple Order')">Bulk Temple Orders</button>
+          <button onclick="openWhatsAppInquiry('Volunteer / Partner')">Volunteer & Partner</button>
+          <button onclick="showTab('contact')">Artisan Help Desk</button>
         </div>
       </div>
-    </div>
 
-    <div class="footer-bottom-bar">
-      <div class="footer-bottom-inner">
-        <div>
-          &copy; <span id="year-holder"></span> <strong>Braj Surbhi</strong> &mdash; An Initiative by Khajani Welfare Society. All rights reserved.
+      <div>
+        <h4>Direct Contact</h4>
+        <div class="footer-contact-item">
+          <i class="fa-brands fa-whatsapp text-success"></i>
+          <span>+91 8218408535</span>
         </div>
-        <div style="display: flex; gap: 1.5rem;">
-          <a href="javascript:void(0)" onclick="switchPage('about')">Institutional Identity</a>
-          <a href="javascript:void(0)" onclick="switchPage('initiatives')">Artisan Welfare Policy</a>
-          <a href="javascript:void(0)" onclick="switchPage('contact')">Reach Support</a>
+        <div class="footer-contact-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Mathura & Vrindavan, Uttar Pradesh</span>
+        </div>
+        <div class="footer-contact-item">
+          <i class="fa-solid fa-building-ngo"></i>
+          <span>Khajani Welfare Society Initiative</span>
         </div>
       </div>
     </div>
-  </footer>
 
-  <!-- Modal Component for WhatsApp Redirect -->
-  <div class="inquiry-modal-wrap" id="inquiry-modal">
-    <div class="inquiry-modal-card">
-      <button class="modal-close-btn" onclick="closeModal()">&times;</button>
-      <div style="text-align: center; margin-bottom: 1.2rem;">
-        <i class="fa-brands fa-whatsapp" style="font-size: 3rem; color: #25d366;"></i>
-      </div>
-      <h3 style="font-family: var(--font-serif); color: var(--navy-royal); font-size: 1.3rem; text-align: center; margin-bottom: 0.5rem;" id="modal-item-title">
-        Direct Product Inquiry
-      </h3>
-      <p style="font-size: 0.9rem; color: var(--text-muted); text-align: center; margin-bottom: 1.5rem;" id="modal-item-msg">
-        Opening your inquiry directly with the coordinator desk.
-      </p>
-      <button class="btn-red" style="width: 100%; justify-content: center;" id="modal-proceed-btn">
-        Continue to WhatsApp <i class="fa-solid fa-arrow-right"></i>
-      </button>
+    <div class="footer-bottom">
+      <span>© 2026 Braj Surbhi · An Initiative by Khajani Welfare Society. All rights reserved.</span>
+      <span>Handcrafted with devotion in Mathura · Rooted in traditional Indian heritage.</span>
     </div>
   </div>
+</footer>
 
-  <!-- JavaScript Single Page Architecture & Handlers -->
-  <script>
-    // Set dynamic copyright year
-    document.getElementById('year-holder').textContent = new Date().getFullYear();
+<!-- Floating WhatsApp Action -->
+<a href="https://wa.me/918218408535?text=Namaste!%20I%20am%20visiting%20the%20Braj%20Surbhi%20website%20and%20would%20like%20to%20know%20more." class="wa-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <i class="fa-brands fa-whatsapp" style="font-size: 1.25rem;"></i>
+  <span>Inquire on WhatsApp</span>
+</a>
 
-    // Page Switching Logic
-    function switchPage(pageKey) {
-      // 1. Hide all page sections
-      const sections = document.querySelectorAll('.page-section');
-      sections.forEach(sec => sec.classList.remove('view-active'));
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-      // 2. Show requested page section
-      const targetSec = document.getElementById('view-' + pageKey);
-      if (targetSec) {
-        targetSec.classList.add('view-active');
-      }
+<script>
+// Tab Switching
+function showTab(tabId) {
+  const views = document.querySelectorAll('.view');
+  views.forEach(v => v.classList.remove('active'));
 
-      // 3. Update Nav Active States
-      const navLinks = document.querySelectorAll('.nav-link-btn');
-      navLinks.forEach(link => link.classList.remove('nav-active'));
+  const targetView = document.getElementById('view-' + tabId);
+  if (targetView) {
+    targetView.classList.add('active');
+  }
 
-      navLinks.forEach(link => {
-        const onclickAttr = link.getAttribute('onclick');
-        if (onclickAttr && onclickAttr.includes("'" + pageKey + "'")) {
-          link.classList.add('nav-active');
-        }
-      });
-
-      // 4. Close mobile menu if open
-      const nav = document.getElementById('main-nav');
-      if (nav) {
-        nav.classList.remove('nav-mobile-open');
-      }
-
-      // 5. Scroll smoothly to top
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-
-      // 6. Update URL hash cleanly
-      if (history.pushState) {
-        history.pushState(null, null, '#' + pageKey);
-      } else {
-        location.hash = '#' + pageKey;
-      }
+  const navBtns = document.querySelectorAll('.nav-tab-btn');
+  navBtns.forEach(b => {
+    if (b.getAttribute('onclick') && b.getAttribute('onclick').includes("'" + tabId + "'")) {
+      b.classList.add('active');
+    } else {
+      b.classList.remove('active');
     }
+  });
 
-    // Toggle Mobile Navigation Menu
-    function toggleNavMenu() {
-      const nav = document.getElementById('main-nav');
-      if (nav) {
-        nav.classList.toggle('nav-mobile-open');
-      }
-    }
+  const navWrap = document.getElementById('mainNav');
+  if (navWrap) navWrap.classList.remove('open');
 
-    // Gallery Category Filter
-    function filterGallery(category, btnElement) {
-      // Update button active state
-      const filterBtns = document.querySelectorAll('.gallery-filter-btn');
-      filterBtns.forEach(btn => btn.classList.remove('active-tab'));
-      if (btnElement) {
-        btnElement.classList.add('active-tab');
-      }
+  window.scrollTo(0, 0);
 
-      // Filter gallery cards
-      const cards = document.querySelectorAll('.gallery-single-card');
-      cards.forEach(card => {
-        const itemCat = card.getAttribute('data-cat');
-        if (category === 'all' || itemCat === category) {
-          card.style.display = 'block';
-        } else {
-          card.style.display = 'none';
-        }
-      });
-    }
+  if (history.pushState) {
+    history.pushState(null, null, '#' + tabId);
+  } else {
+    location.hash = '#' + tabId;
+  }
+}
 
-    // FAQ Accordion Toggle
-    function toggleFaq(buttonElement) {
-      const parentRow = buttonElement.parentElement;
-      const wasActive = parentRow.classList.contains('active');
-      
-      // Close all rows
-      document.querySelectorAll('.faq-row').forEach(row => row.classList.remove('active'));
+// Mobile Menu Toggle
+const menuToggle = document.getElementById('menuToggle');
+const mainNav = document.getElementById('mainNav');
+if (menuToggle && mainNav) {
+  menuToggle.addEventListener('click', () => {
+    mainNav.classList.toggle('open');
+  });
+}
 
-      // If clicked row was not active, open it
-      if (!wasActive) {
-        parentRow.classList.add('active');
-      }
-    }
+// WhatsApp Direct Inquiry
+function openWhatsAppInquiry(productName) {
+  const msg = encodeURIComponent("Namaste! I am interested in inquiring about " + productName + " with Braj Surbhi (Khajani Welfare Society). Please share details and pricing.");
+  window.open("https://wa.me/918218408535?text=" + msg, "_blank", "noopener,noreferrer");
+}
 
-    // WhatsApp Inquiry Dispatch
-    function initiateInquiry(productOrTopic) {
-      const encodedMsg = encodeURIComponent("Namaste! I would like to inquire regarding " + productOrTopic + " with Braj Surbhi (Khajani Welfare Society).");
-      const whatsappUrl = "https://wa.me/?text=" + encodedMsg;
+// Form Submission WhatsApp Link
+function handleInquirySubmit(e) {
+  e.preventDefault();
+  const name = document.getElementById('cName').value.trim();
+  const phone = document.getElementById('cPhone').value.trim();
+  const item = document.getElementById('cItem').value;
+  const msg = document.getElementById('cMsg').value.trim();
 
-      // Show modal preview
-      const modal = document.getElementById('inquiry-modal');
-      const titleElem = document.getElementById('modal-item-title');
-      const msgElem = document.getElementById('modal-item-msg');
-      const proceedBtn = document.getElementById('modal-proceed-btn');
+  let text = "Namaste! My name is " + name;
+  if (phone) text += " (" + phone + ")";
+  text += ".\nItem of Interest: " + item + "\nMessage: " + msg;
 
-      if (modal && titleElem && msgElem && proceedBtn) {
-        titleElem.textContent = productOrTopic;
-        msgElem.textContent = "You are connecting directly with our artisan coordination team for inquiries, pricing, and orders.";
-        proceedBtn.onclick = function() {
-          window.open(whatsappUrl, '_blank');
-          closeModal();
-        };
-        modal.style.display = 'flex';
-      } else {
-        window.open(whatsappUrl, '_blank');
-      }
-    }
+  const url = "https://wa.me/918218408535?text=" + encodeURIComponent(text);
+  window.open(url, "_blank", "noopener,noreferrer");
+  e.target.reset();
+}
 
-    function closeModal() {
-      const modal = document.getElementById('inquiry-modal');
-      if (modal) {
-        modal.style.display = 'none';
-      }
-    }
-
-    // Form submission simulation
-    function handleFormSubmission(e) {
-      e.preventDefault();
-      const name = document.getElementById('fullName').value;
-      const type = document.getElementById('inquiryType').value;
-      const msg = document.getElementById('messageText').value;
-
-      const directText = encodeURIComponent("Namaste! My name is " + name + ". Inquiry: " + type + ". Details: " + msg);
-      const targetUrl = "https://wa.me/?text=" + directText;
-
-      alert("Thank you, " + name + "! Your inquiry has been registered. You will now be transferred to WhatsApp for direct coordination.");
-      window.open(targetUrl, '_blank');
-      e.target.reset();
-    }
-
-    // Hash change detection on page refresh
-    window.addEventListener('DOMContentLoaded', () => {
-      const currentHash = window.location.hash.replace('#', '');
-      const validPages = ['home', 'about', 'initiatives', 'products', 'gallery', 'impact', 'faq', 'contact'];
-      if (validPages.includes(currentHash)) {
-        switchPage(currentHash);
-      }
-    });
-
-    window.addEventListener('hashchange', () => {
-      const currentHash = window.location.hash.replace('#', '');
-      const validPages = ['home', 'about', 'initiatives', 'products', 'gallery', 'impact', 'faq', 'contact'];
-      if (validPages.includes(currentHash)) {
-        switchPage(currentHash);
-      }
-    });
-  </script>
+// Hash support on load
+window.addEventListener('load', () => {
+  const hash = window.location.hash.replace('#', '');
+  const valid = ['home', 'story', 'gallery', 'impact', 'faqs', 'contact'];
+  if (valid.includes(hash)) {
+    showTab(hash);
+  }
+});
+</script>
 </body>
 </html>
